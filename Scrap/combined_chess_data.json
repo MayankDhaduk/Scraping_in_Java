@@ -1,0 +1,4812 @@
+{
+	"TWIC_Data": [
+		{
+			"RDS": "12",
+			"RES": "https://chess-results.com/tnr1149784.aspx",
+			"Results": [
+				[
+					"1",
+					"GM",
+					"Ju, Wenjun",
+					"8603006",
+					"CHN",
+					"2561"
+				],
+				[
+					"2",
+					"GM",
+					"Tan, Zhongyi",
+					"8603642",
+					"CHN",
+					"2555"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/wchw25.pgn"
+			],
+			"DATES": "02.04.2025-_23.04.2025",
+			"TYPE": "Match",
+			"EVENT": "WCh_Women_2025"
+		},
+		{
+			"RDS": "11",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/cheurw25.pgn"
+			],
+			"DATES": "30.03.2025-_12.04.2025",
+			"TYPE": "Swiss",
+			"EVENT": "25th_ch-EUR_Indiv_w_2025"
+		},
+		{
+			"RDS": "4",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/amercupchamp25.pgn"
+			],
+			"DATES": "15.03.2025-_24.03.2025",
+			"TYPE": "DEKO",
+			"EVENT": "American_Cup_Champ"
+		},
+		{
+			"RDS": "4",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/amercupchampe25.pgn"
+			],
+			"DATES": "15.03.2025-_24.03.2025",
+			"TYPE": "DEKO",
+			"EVENT": "American_Cup_Elim"
+		},
+		{
+			"RDS": "5",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/amercupchampw25.pgn"
+			],
+			"DATES": "15.03.2025-_24.03.2025",
+			"TYPE": "DEKO",
+			"EVENT": "American_Cup_Champ_w"
+		},
+		{
+			"RDS": "4",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/amercupchampew25.pgn"
+			],
+			"DATES": "15.03.2025-_24.03.2025",
+			"TYPE": "DEKO",
+			"EVENT": "American_Cup_Elim_w"
+		},
+		{
+			"RDS": "9",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/amercupblitz25.pgn"
+			],
+			"DATES": "15.03.2025-_24.03.2025",
+			"TYPE": "Swiss",
+			"EVENT": "American_Cup_Blitz_2025"
+		},
+		{
+			"RDS": "11",
+			"RES": "https://chess-results.com/tnr1080156.aspx",
+			"Results": [
+				[
+					"1",
+					"",
+					"GM",
+					"Deac, Bogdan-Daniel",
+					"1226380",
+					"ROU",
+					"2692",
+					"",
+					""
+				],
+				[
+					"2",
+					"",
+					"GM",
+					"Sarana, Alexey",
+					"24133795",
+					"SRB",
+					"2689",
+					"",
+					""
+				],
+				[
+					"3",
+					"",
+					"GM",
+					"Van Foreest, Jorden",
+					"1039784",
+					"NED",
+					"2676",
+					"",
+					""
+				],
+				[
+					"4",
+					"",
+					"GM",
+					"Sargsyan, Shant",
+					"13306766",
+					"ARM",
+					"2666",
+					"",
+					""
+				],
+				[
+					"5",
+					"",
+					"GM",
+					"Dardha, Daniel",
+					"240990",
+					"BEL",
+					"2665",
+					"",
+					""
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/cheurind25.pgn"
+			],
+			"DATES": "15.03.2025-_26.03.2025",
+			"TYPE": "Swiss",
+			"EVENT": "25th_ch-EUR_Indiv_2025"
+		},
+		{
+			"RDS": "9",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/nicowgp25.pgn"
+			],
+			"DATES": "15.03.2025-_24.03.2025",
+			"TYPE": "SRR",
+			"EVENT": "Nikosia_WGP_2025"
+		},
+		{
+			"RDS": "3",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/champshowkings25.pgn"
+			],
+			"DATES": "04.03.2025-_06.03.2025",
+			"TYPE": "Match",
+			"EVENT": "Champions_Showdown_Kings"
+		},
+		{
+			"RDS": "9",
+			"RES": "https://chess-results.com/tnr1026097.aspx",
+			"Results": [
+				[
+					"1",
+					"",
+					"GM",
+					"Pechac, Jergus",
+					"14926970",
+					"SVK",
+					"2603",
+					"",
+					"Tj Slávia Caissa Čadca"
+				],
+				[
+					"2",
+					"",
+					"GM",
+					"Nyzhnyk, Illya",
+					"14118084",
+					"UKR",
+					"2569",
+					"",
+					""
+				],
+				[
+					"3",
+					"",
+					"GM",
+					"Grigoryan, Karen H.",
+					"13301004",
+					"ARM",
+					"2554",
+					"",
+					""
+				],
+				[
+					"4",
+					"",
+					"GM",
+					"Sasikiran, Krishnan",
+					"5004985",
+					"IND",
+					"2548",
+					"",
+					"Novy Bor Chess Club"
+				],
+				[
+					"5",
+					"",
+					"GM",
+					"Vetoshko, Volodymyr",
+					"14122480",
+					"UKR",
+					"2529",
+					"",
+					""
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/praguemast25.pgn"
+			],
+			"DATES": "26.02.2025-_07.03.2025",
+			"TYPE": "SRR",
+			"EVENT": "7th_Prague_Masters_2025"
+		},
+		{
+			"RDS": "9",
+			"RES": "https://chess-results.com/tnr1026097.aspx",
+			"Results": [
+				[
+					"1",
+					"",
+					"GM",
+					"Pechac, Jergus",
+					"14926970",
+					"SVK",
+					"2603",
+					"",
+					"Tj Slávia Caissa Čadca"
+				],
+				[
+					"2",
+					"",
+					"GM",
+					"Nyzhnyk, Illya",
+					"14118084",
+					"UKR",
+					"2569",
+					"",
+					""
+				],
+				[
+					"3",
+					"",
+					"GM",
+					"Grigoryan, Karen H.",
+					"13301004",
+					"ARM",
+					"2554",
+					"",
+					""
+				],
+				[
+					"4",
+					"",
+					"GM",
+					"Sasikiran, Krishnan",
+					"5004985",
+					"IND",
+					"2548",
+					"",
+					"Novy Bor Chess Club"
+				],
+				[
+					"5",
+					"",
+					"GM",
+					"Vetoshko, Volodymyr",
+					"14122480",
+					"UKR",
+					"2529",
+					"",
+					""
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/praguechall25.pgn"
+			],
+			"DATES": "26.02.2025-_07.03.2025",
+			"TYPE": "SRR",
+			"EVENT": "7th_Prague_Challengers"
+		},
+		{
+			"RDS": "9",
+			"RES": "https://chess-results.com/tnr1026097.aspx",
+			"Results": [
+				[
+					"1",
+					"",
+					"GM",
+					"Pechac, Jergus",
+					"14926970",
+					"SVK",
+					"2603",
+					"",
+					"Tj Slávia Caissa Čadca"
+				],
+				[
+					"2",
+					"",
+					"GM",
+					"Nyzhnyk, Illya",
+					"14118084",
+					"UKR",
+					"2569",
+					"",
+					""
+				],
+				[
+					"3",
+					"",
+					"GM",
+					"Grigoryan, Karen H.",
+					"13301004",
+					"ARM",
+					"2554",
+					"",
+					""
+				],
+				[
+					"4",
+					"",
+					"GM",
+					"Sasikiran, Krishnan",
+					"5004985",
+					"IND",
+					"2548",
+					"",
+					"Novy Bor Chess Club"
+				],
+				[
+					"5",
+					"",
+					"GM",
+					"Vetoshko, Volodymyr",
+					"14122480",
+					"UKR",
+					"2529",
+					"",
+					""
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/praguefut25.pgn"
+			],
+			"DATES": "26.02.2025-_07.03.2025",
+			"TYPE": "SRR",
+			"EVENT": "7th_Prague_Futures"
+		},
+		{
+			"RDS": "9",
+			"RES": "https://chess-results.com/tnr1026097.aspx",
+			"Results": [
+				[
+					"1",
+					"",
+					"GM",
+					"Pechac, Jergus",
+					"14926970",
+					"SVK",
+					"2603",
+					"",
+					"Tj Slávia Caissa Čadca"
+				],
+				[
+					"2",
+					"",
+					"GM",
+					"Nyzhnyk, Illya",
+					"14118084",
+					"UKR",
+					"2569",
+					"",
+					""
+				],
+				[
+					"3",
+					"",
+					"GM",
+					"Grigoryan, Karen H.",
+					"13301004",
+					"ARM",
+					"2554",
+					"",
+					""
+				],
+				[
+					"4",
+					"",
+					"GM",
+					"Sasikiran, Krishnan",
+					"5004985",
+					"IND",
+					"2548",
+					"",
+					"Novy Bor Chess Club"
+				],
+				[
+					"5",
+					"",
+					"GM",
+					"Vetoshko, Volodymyr",
+					"14122480",
+					"UKR",
+					"2529",
+					"",
+					""
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/pragueintop25.pgn"
+			],
+			"DATES": "26.02.2025-_07.03.2025",
+			"TYPE": "Swiss",
+			"EVENT": "Prague_Int_Open_2025"
+		},
+		{
+			"RDS": "6",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/chessablemastwin25.pgn"
+			],
+			"DATES": "18.02.2025-_21.02.2025",
+			"TYPE": "DEKO",
+			"EVENT": "Chessable_Masters_Winners"
+		},
+		{
+			"RDS": "6",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/chessablemastlose25.pgn"
+			],
+			"DATES": "18.02.2025-_21.02.2025",
+			"TYPE": "DEKO",
+			"EVENT": "Chessable_Masters_Losers"
+		},
+		{
+			"RDS": "9",
+			"RES": "https://chess-results.com/tnr1083335.aspx",
+			"Results": [
+				[
+					"1",
+					"",
+					"GM",
+					"Cheng, Bobby",
+					"4300033",
+					"AUS",
+					"2594"
+				],
+				[
+					"2",
+					"",
+					"GM",
+					"Bogner, Sebastian",
+					"4692055",
+					"SUI",
+					"2540"
+				],
+				[
+					"3",
+					"",
+					"GM",
+					"Beerdsen, Thomas",
+					"1030108",
+					"NED",
+					"2511"
+				],
+				[
+					"4",
+					"",
+					"GM",
+					"Ghasi, Ameet K",
+					"409200",
+					"ENG",
+					"2506"
+				],
+				[
+					"5",
+					"",
+					"GM",
+					"Chatalbashev, Boris",
+					"2900440",
+					"DEN",
+					"2489"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/isleofwightmast25.pgn"
+			],
+			"DATES": "18.02.2025-_23.02.2025",
+			"TYPE": "Swiss",
+			"EVENT": "Wightlink_Int_Masters"
+		},
+		{
+			"RDS": "9",
+			"RES": "https://chess-results.com/tnr1099307.aspx",
+			"Results": [
+				[
+					"7",
+					"",
+					"GM",
+					"Zhongyi Tan",
+					"8603642",
+					"CHN",
+					"2561"
+				],
+				[
+					"10",
+					"",
+					"GM",
+					"Aleksandra Goryachkina",
+					"4147103",
+					"FID",
+					"2546"
+				],
+				[
+					"8",
+					"",
+					"GM",
+					"Humpy Koneru",
+					"5008123",
+					"IND",
+					"2523"
+				],
+				[
+					"1",
+					"",
+					"GM",
+					"Kateryna Lagno",
+					"14109336",
+					"FID",
+					"2515"
+				],
+				[
+					"2",
+					"",
+					"IM",
+					"Bibisara Assaubayeva",
+					"13708694",
+					"KAZ",
+					"2492"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/monacowgp25.pgn"
+			],
+			"DATES": "17.02.2025-_28.02.2025",
+			"TYPE": "SRR",
+			"EVENT": "Monaco_WGP_2025"
+		},
+		{
+			"RDS": "7",
+			"RES": "https://chess-results.com/tnr1108094.aspx",
+			"Results": [
+				[
+					"5",
+					"",
+					"GM",
+					"Maghsoodloo, Parham",
+					"12539929",
+					"IRI",
+					"2680"
+				],
+				[
+					"10",
+					"",
+					"GM",
+					"Navara, David",
+					"309095",
+					"CZE",
+					"2677"
+				],
+				[
+					"7",
+					"",
+					"GM",
+					"Murzin, Volodar",
+					"44155573",
+					"FID",
+					"2657"
+				],
+				[
+					"6",
+					"",
+					"GM",
+					"Amin, Bassem",
+					"10601457",
+					"EGY",
+					"2654"
+				],
+				[
+					"9",
+					"",
+					"GM",
+					"Dardha, Daniel",
+					"240990",
+					"BEL",
+					"2652"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/djerbamast25.pgn"
+			],
+			"DATES": "16.02.2025-_23.02.2025",
+			"TYPE": "SRR",
+			"EVENT": "Djerba_Masters_2025"
+		},
+		{
+			"RDS": "9",
+			"RES": "https://chess-results.com/tnr1108094.aspx",
+			"Results": [
+				[
+					"5",
+					"",
+					"GM",
+					"Maghsoodloo, Parham",
+					"12539929",
+					"IRI",
+					"2680"
+				],
+				[
+					"10",
+					"",
+					"GM",
+					"Navara, David",
+					"309095",
+					"CZE",
+					"2677"
+				],
+				[
+					"7",
+					"",
+					"GM",
+					"Murzin, Volodar",
+					"44155573",
+					"FID",
+					"2657"
+				],
+				[
+					"6",
+					"",
+					"GM",
+					"Amin, Bassem",
+					"10601457",
+					"EGY",
+					"2654"
+				],
+				[
+					"9",
+					"",
+					"GM",
+					"Dardha, Daniel",
+					"240990",
+					"BEL",
+					"2652"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/djerbaopena25.pgn"
+			],
+			"DATES": "16.02.2025-_23.02.2025",
+			"TYPE": "Swiss",
+			"EVENT": "Djerba_Open_A_2025"
+		},
+		{
+			"RDS": "9",
+			"RES": "https://chess-results.com/tnr1108094.aspx",
+			"Results": [
+				[
+					"5",
+					"",
+					"GM",
+					"Maghsoodloo, Parham",
+					"12539929",
+					"IRI",
+					"2680"
+				],
+				[
+					"10",
+					"",
+					"GM",
+					"Navara, David",
+					"309095",
+					"CZE",
+					"2677"
+				],
+				[
+					"7",
+					"",
+					"GM",
+					"Murzin, Volodar",
+					"44155573",
+					"FID",
+					"2657"
+				],
+				[
+					"6",
+					"",
+					"GM",
+					"Amin, Bassem",
+					"10601457",
+					"EGY",
+					"2654"
+				],
+				[
+					"9",
+					"",
+					"GM",
+					"Dardha, Daniel",
+					"240990",
+					"BEL",
+					"2652"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/djerbaoblitz25.pgn"
+			],
+			"DATES": "16.02.2025-_23.02.2025",
+			"TYPE": "Swiss",
+			"EVENT": "Djerba_Blitz_2025"
+		},
+		{
+			"RDS": "9",
+			"RES": "https://chess-results.com/tnr1096095.aspx",
+			"Results": [
+				[
+					"3",
+					"",
+					"GM",
+					"Carlsen, Magnus",
+					"1503014",
+					"NOR",
+					"2833"
+				],
+				[
+					"9",
+					"",
+					"GM",
+					"Caruana, Fabiano",
+					"2020009",
+					"USA",
+					"2803"
+				],
+				[
+					"8",
+					"",
+					"GM",
+					"Nakamura, Hikaru",
+					"2016192",
+					"USA",
+					"2802"
+				],
+				[
+					"7",
+					"",
+					"GM",
+					"Gukesh, D",
+					"46616543",
+					"IND",
+					"2777"
+				],
+				[
+					"4",
+					"",
+					"GM",
+					"Abdusattorov, Nodirbek",
+					"14204118",
+					"UZB",
+					"2766"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/freeweissrr25.pgn"
+			],
+			"DATES": "07.02.2025-_14.02.2025",
+			"TYPE": "SRR",
+			"EVENT": "Freestyle_Weissenhaus_RR"
+		},
+		{
+			"RDS": "3",
+			"RES": "https://chess-results.com/tnr1096095.aspx",
+			"Results": [
+				[
+					"3",
+					"",
+					"GM",
+					"Carlsen, Magnus",
+					"1503014",
+					"NOR",
+					"2833"
+				],
+				[
+					"9",
+					"",
+					"GM",
+					"Caruana, Fabiano",
+					"2020009",
+					"USA",
+					"2803"
+				],
+				[
+					"8",
+					"",
+					"GM",
+					"Nakamura, Hikaru",
+					"2016192",
+					"USA",
+					"2802"
+				],
+				[
+					"7",
+					"",
+					"GM",
+					"Gukesh, D",
+					"46616543",
+					"IND",
+					"2777"
+				],
+				[
+					"4",
+					"",
+					"GM",
+					"Abdusattorov, Nodirbek",
+					"14204118",
+					"UZB",
+					"2766"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/freeweissko25.pgn"
+			],
+			"DATES": "07.02.2025-_14.02.2025",
+			"TYPE": "KO",
+			"EVENT": "Freestyle_Weissenhaus_KO"
+		},
+		{
+			"RDS": "13",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/tatamast25.pgn"
+			],
+			"DATES": "17.01.2025-_02.02.2025",
+			"TYPE": "SRR",
+			"EVENT": "87th_Tata_Steel_Masters"
+		},
+		{
+			"RDS": "13",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/tatachall25.pgn"
+			],
+			"DATES": "17.01.2025-_02.02.2025",
+			"TYPE": "SRR",
+			"EVENT": "Tata_Steel_Challengers"
+		},
+		{
+			"RDS": "9",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/tatatien25.pgn"
+			],
+			"DATES": "17.01.2025-_02.02.2025",
+			"TYPE": "SRR",
+			"EVENT": "Tata_Steel_Top_Tienkamp"
+		},
+		{
+			"RDS": "2",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/tatamasttb25.pgn"
+			],
+			"DATES": "17.01.2025-_02.02.2025",
+			"TYPE": "KO",
+			"EVENT": "Tata_Steel_Masters_TB"
+		},
+		{
+			"RDS": "9",
+			"RES": "https://chess-results.com/tnr1088363.aspx",
+			"Results": [
+				[
+					"1",
+					"",
+					"GM",
+					"Zhang, Pengxiang",
+					"8600970",
+					"CHN",
+					"2567",
+					"",
+					"China"
+				],
+				[
+					"2",
+					"",
+					"GM",
+					"Laurent-Paoli, Pierre",
+					"26017962",
+					"FRA",
+					"2559",
+					"",
+					"France"
+				],
+				[
+					"3",
+					"",
+					"IM",
+					"Boyer, Mahel",
+					"45102422",
+					"FRA",
+					"2526",
+					"",
+					"France"
+				],
+				[
+					"4",
+					"",
+					"GM",
+					"Stefansson, Vignir Vatnar",
+					"2308649",
+					"ISL",
+					"2537",
+					"",
+					"Iceland"
+				],
+				[
+					"5",
+					"",
+					"GM",
+					"Royal, Shreyas",
+					"448869",
+					"ENG",
+					"2522",
+					"",
+					"West London"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/hastm2425.pgn"
+			],
+			"DATES": "28.12.2024-_05.01.2025",
+			"TYPE": "Swiss",
+			"EVENT": "Hastings_Masters_2024-25"
+		},
+		{
+			"RDS": "9",
+			"RES": "https://chess-results.com/tnr967022.aspx",
+			"Results": [
+				[
+					"1",
+					"",
+					"GM",
+					"AMIN, Bassem",
+					"10601457",
+					"EGY",
+					"2652",
+					"",
+					""
+				],
+				[
+					"2",
+					"",
+					"GM",
+					"LIVAIC, Leon",
+					"14531534",
+					"CRO",
+					"2560",
+					"",
+					""
+				],
+				[
+					"3",
+					"",
+					"GM",
+					"KULAOTS, Kaido",
+					"4500261",
+					"EST",
+					"2521",
+					"",
+					""
+				],
+				[
+					"4",
+					"",
+					"GM",
+					"HEBERLA, Bartlomiej",
+					"1115120",
+					"POL",
+					"2503",
+					"",
+					""
+				],
+				[
+					"5",
+					"",
+					"IM",
+					"COSTA, Leonardo",
+					"16213955",
+					"GER",
+					"2498",
+					"",
+					"U18"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/riltcup2425.pgn"
+			],
+			"DATES": "27.12.2024-_05.01.2025",
+			"TYPE": "Swiss",
+			"EVENT": "52nd_Rilton_Cup_2024-25"
+		},
+		{
+			"RDS": "13",
+			"RES": "https://chess-results.com/tnr1074690.aspx",
+			"Results": [
+				[
+					"1",
+					"",
+					"GM",
+					"Carlsen, Magnus",
+					"1503014",
+					"NOR",
+					"2838"
+				],
+				[
+					"2",
+					"",
+					"GM",
+					"Caruana, Fabiano",
+					"2020009",
+					"USA",
+					"2766"
+				],
+				[
+					"3",
+					"",
+					"GM",
+					"Vachier-Lagrave, Maxime",
+					"623539",
+					"FRA",
+					"2763"
+				],
+				[
+					"4",
+					"",
+					"GM",
+					"Wei, Yi",
+					"8603405",
+					"CHN",
+					"2760"
+				],
+				[
+					"5",
+					"",
+					"GM",
+					"Nepomniachtchi, Ian",
+					"4168119",
+					"FID",
+					"2758"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/wrap24.pgn"
+			],
+			"DATES": "26.12.2024-_30.12.2024",
+			"TYPE": "Swiss",
+			"EVENT": "World_Rapid_2024"
+		},
+		{
+			"RDS": "11",
+			"RES": "https://chess-results.com/tnr1074690.aspx",
+			"Results": [
+				[
+					"1",
+					"",
+					"GM",
+					"Carlsen, Magnus",
+					"1503014",
+					"NOR",
+					"2838"
+				],
+				[
+					"2",
+					"",
+					"GM",
+					"Caruana, Fabiano",
+					"2020009",
+					"USA",
+					"2766"
+				],
+				[
+					"3",
+					"",
+					"GM",
+					"Vachier-Lagrave, Maxime",
+					"623539",
+					"FRA",
+					"2763"
+				],
+				[
+					"4",
+					"",
+					"GM",
+					"Wei, Yi",
+					"8603405",
+					"CHN",
+					"2760"
+				],
+				[
+					"5",
+					"",
+					"GM",
+					"Nepomniachtchi, Ian",
+					"4168119",
+					"FID",
+					"2758"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/wrapw24.pgn"
+			],
+			"DATES": "26.12.2024-_30.12.2024",
+			"TYPE": "Swiss",
+			"EVENT": "World_Rapid_Women_2024"
+		},
+		{
+			"RDS": "13",
+			"RES": "https://chess-results.com/tnr1074690.aspx",
+			"Results": [
+				[
+					"1",
+					"",
+					"GM",
+					"Carlsen, Magnus",
+					"1503014",
+					"NOR",
+					"2838"
+				],
+				[
+					"2",
+					"",
+					"GM",
+					"Caruana, Fabiano",
+					"2020009",
+					"USA",
+					"2766"
+				],
+				[
+					"3",
+					"",
+					"GM",
+					"Vachier-Lagrave, Maxime",
+					"623539",
+					"FRA",
+					"2763"
+				],
+				[
+					"4",
+					"",
+					"GM",
+					"Wei, Yi",
+					"8603405",
+					"CHN",
+					"2760"
+				],
+				[
+					"5",
+					"",
+					"GM",
+					"Nepomniachtchi, Ian",
+					"4168119",
+					"FID",
+					"2758"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/wbli24.pgn"
+			],
+			"DATES": "26.12.2024-_30.12.2024",
+			"TYPE": "Swiss",
+			"EVENT": "World_Blitz_2024"
+		},
+		{
+			"RDS": "11",
+			"RES": "https://chess-results.com/tnr1074690.aspx",
+			"Results": [
+				[
+					"1",
+					"",
+					"GM",
+					"Carlsen, Magnus",
+					"1503014",
+					"NOR",
+					"2838"
+				],
+				[
+					"2",
+					"",
+					"GM",
+					"Caruana, Fabiano",
+					"2020009",
+					"USA",
+					"2766"
+				],
+				[
+					"3",
+					"",
+					"GM",
+					"Vachier-Lagrave, Maxime",
+					"623539",
+					"FRA",
+					"2763"
+				],
+				[
+					"4",
+					"",
+					"GM",
+					"Wei, Yi",
+					"8603405",
+					"CHN",
+					"2760"
+				],
+				[
+					"5",
+					"",
+					"GM",
+					"Nepomniachtchi, Ian",
+					"4168119",
+					"FID",
+					"2758"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/wbliw24.pgn"
+			],
+			"DATES": "26.12.2024-_30.12.2024",
+			"TYPE": "Swiss",
+			"EVENT": "World_Blitz_Women_2024"
+		},
+		{
+			"RDS": "3",
+			"RES": "https://chess-results.com/tnr1074690.aspx",
+			"Results": [
+				[
+					"1",
+					"",
+					"GM",
+					"Carlsen, Magnus",
+					"1503014",
+					"NOR",
+					"2838"
+				],
+				[
+					"2",
+					"",
+					"GM",
+					"Caruana, Fabiano",
+					"2020009",
+					"USA",
+					"2766"
+				],
+				[
+					"3",
+					"",
+					"GM",
+					"Vachier-Lagrave, Maxime",
+					"623539",
+					"FRA",
+					"2763"
+				],
+				[
+					"4",
+					"",
+					"GM",
+					"Wei, Yi",
+					"8603405",
+					"CHN",
+					"2760"
+				],
+				[
+					"5",
+					"",
+					"GM",
+					"Nepomniachtchi, Ian",
+					"4168119",
+					"FID",
+					"2758"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/wblifko24.pgn"
+			],
+			"DATES": "26.12.2024-_30.12.2024",
+			"TYPE": "KO",
+			"EVENT": "World_Blitz_Final_KO_2024"
+		},
+		{
+			"RDS": "3",
+			"RES": "https://chess-results.com/tnr1074690.aspx",
+			"Results": [
+				[
+					"1",
+					"",
+					"GM",
+					"Carlsen, Magnus",
+					"1503014",
+					"NOR",
+					"2838"
+				],
+				[
+					"2",
+					"",
+					"GM",
+					"Caruana, Fabiano",
+					"2020009",
+					"USA",
+					"2766"
+				],
+				[
+					"3",
+					"",
+					"GM",
+					"Vachier-Lagrave, Maxime",
+					"623539",
+					"FRA",
+					"2763"
+				],
+				[
+					"4",
+					"",
+					"GM",
+					"Wei, Yi",
+					"8603405",
+					"CHN",
+					"2760"
+				],
+				[
+					"5",
+					"",
+					"GM",
+					"Nepomniachtchi, Ian",
+					"4168119",
+					"FID",
+					"2758"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/wblifkow24.pgn"
+			],
+			"DATES": "26.12.2024-_30.12.2024",
+			"TYPE": "KO",
+			"EVENT": "World_Blitz_Women_Final"
+		},
+		{
+			"RDS": "9",
+			"RES": "https://chess-results.com/tnr929420.aspx",
+			"Results": [
+				[
+					"1",
+					"GM",
+					"Narayanan, S L",
+					"5058422",
+					"IND",
+					"2647",
+					""
+				],
+				[
+					"2",
+					"GM",
+					"Kazakouski, Valery",
+					"13507443",
+					"LTU",
+					"2567",
+					""
+				],
+				[
+					"3",
+					"GM",
+					"Schoppen, Casper",
+					"1046730",
+					"NED",
+					"2539",
+					""
+				],
+				[
+					"4",
+					"GM",
+					"Beerdsen, Thomas",
+					"1030108",
+					"NED",
+					"2502",
+					""
+				],
+				[
+					"5",
+					"GM",
+					"Poetsch, Hagen",
+					"24615137",
+					"GER",
+					"2491",
+					""
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/gronop24.pgn"
+			],
+			"DATES": "21.12.2024-_30.12.2024",
+			"TYPE": "Swiss",
+			"EVENT": "60th_Groningen_Open_2024"
+		},
+		{
+			"RDS": "7",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/cctfinalrr24.pgn"
+			],
+			"DATES": "17.12.2024-_21.12.2024",
+			"TYPE": "MRR",
+			"EVENT": "CCT_Final_RR_2024"
+		},
+		{
+			"RDS": "1",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/cctfinalsurvival24.pgn"
+			],
+			"DATES": "17.12.2024-_21.12.2024",
+			"TYPE": "KO",
+			"EVENT": "CCT_Final_Survival_2024"
+		},
+		{
+			"RDS": "2",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/cctfinalko24.pgn"
+			],
+			"DATES": "17.12.2024-_21.12.2024",
+			"TYPE": "KO",
+			"EVENT": "CCT_Final_KO_2024"
+		},
+		{
+			"RDS": "9",
+			"RES": "https://chess-results.com/tnr1080336.aspx",
+			"Results": [
+				[
+					"1",
+					"",
+					"GM",
+					"Erigaisi, Arjun",
+					"35009192",
+					"IND",
+					"2801",
+					"",
+					"",
+					""
+				],
+				[
+					"2",
+					"",
+					"GM",
+					"Abdusattorov, Nodirbek",
+					"14204118",
+					"UZB",
+					"2777",
+					"",
+					"U20",
+					""
+				],
+				[
+					"3",
+					"",
+					"GM",
+					"Maghsoodloo, Parham",
+					"12539929",
+					"IRI",
+					"2703",
+					"",
+					"",
+					""
+				],
+				[
+					"4",
+					"",
+					"GM",
+					"Artemiev, Vladislav",
+					"24101605",
+					"FID",
+					"2701",
+					"",
+					"",
+					""
+				],
+				[
+					"5",
+					"",
+					"GM",
+					"Tabatabaei, M. Amin",
+					"12521213",
+					"IRI",
+					"2695",
+					"",
+					"",
+					""
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/qatmast24.pgn"
+			],
+			"DATES": "03.12.2024-_12.12.2024",
+			"TYPE": "Swiss",
+			"EVENT": "Qatar_Masters_Open_2024"
+		},
+		{
+			"RDS": "7",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/loncc24.pgn"
+			],
+			"DATES": "29.11.2024-_07.12.2024",
+			"TYPE": "SRR",
+			"EVENT": "14th_London_Classic_Elite"
+		},
+		{
+			"RDS": "9",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/lonccmast24.pgn"
+			],
+			"DATES": "29.11.2024-_07.12.2024",
+			"TYPE": "Swiss",
+			"EVENT": "London_Classic_Masters"
+		},
+		{
+			"RDS": "7",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/lonccblia24.pgn"
+			],
+			"DATES": "29.11.2024-_07.12.2024",
+			"TYPE": "SRR",
+			"EVENT": "LCC_Superblitz_GpA"
+		},
+		{
+			"RDS": "7",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/lonccblib24.pgn"
+			],
+			"DATES": "29.11.2024-_07.12.2024",
+			"TYPE": "SRR",
+			"EVENT": "LCC_Superblitz_GpB"
+		},
+		{
+			"RDS": "7",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/lonccblic24.pgn"
+			],
+			"DATES": "29.11.2024-_07.12.2024",
+			"TYPE": "SRR",
+			"EVENT": "LCC_Superblitz_GpC"
+		},
+		{
+			"RDS": "7",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/lonccblid24.pgn"
+			],
+			"DATES": "29.11.2024-_07.12.2024",
+			"TYPE": "SRR",
+			"EVENT": "LCC_Superblitz_GpD"
+		},
+		{
+			"RDS": "7",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/lonccblifinal24.pgn"
+			],
+			"DATES": "29.11.2024-_07.12.2024",
+			"TYPE": "SRR",
+			"EVENT": "LCC_Superblitz_Final"
+		},
+		{
+			"RDS": "14",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/wch24.pgn"
+			],
+			"DATES": "25.11.2024-_13.12.2024",
+			"TYPE": "Match",
+			"EVENT": "WCh_2024"
+		},
+		{
+			"RDS": "2",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/freestylem24.pgn"
+			],
+			"DATES": "20.11.2024-_22.11.2024",
+			"TYPE": "Match",
+			"EVENT": "Freestyle_Chess_m_2024"
+		},
+		{
+			"RDS": "9",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/tataindrap24.pgn"
+			],
+			"DATES": "13.11.2024-_17.11.2024",
+			"TYPE": "SRR",
+			"EVENT": "Tata_Steel_India_Rapid"
+		},
+		{
+			"RDS": "18",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/tataindbli24.pgn"
+			],
+			"DATES": "13.11.2024-_17.11.2024",
+			"TYPE": "DRR",
+			"EVENT": "Tata_Steel_India_Blitz"
+		},
+		{
+			"RDS": "9",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/tataindrapw24.pgn"
+			],
+			"DATES": "13.11.2024-_17.11.2024",
+			"TYPE": "SRR",
+			"EVENT": "Tata_Steel_India_Rapid_w"
+		},
+		{
+			"RDS": "18",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/tataindbliw24.pgn"
+			],
+			"DATES": "13.11.2024-_17.11.2024",
+			"TYPE": "DRR",
+			"EVENT": "Tata_Steel_India_Blitz_w"
+		},
+		{
+			"RDS": "11",
+			"RES": "https://chess-results.com/tnr1011499.aspx",
+			"Results": [
+				[
+					"1",
+					"",
+					"GM",
+					"Fedoseev, Vladimir",
+					"24130737",
+					"SLO",
+					"2712",
+					"",
+					""
+				],
+				[
+					"2",
+					"",
+					"GM",
+					"Deac, Bogdan-Daniel",
+					"1226380",
+					"ROU",
+					"2687",
+					"",
+					""
+				],
+				[
+					"3",
+					"",
+					"GM",
+					"Van Foreest, Jorden",
+					"1039784",
+					"NED",
+					"2687",
+					"",
+					""
+				],
+				[
+					"4",
+					"",
+					"GM",
+					"Martirosyan, Haik M.",
+					"13306553",
+					"ARM",
+					"2676",
+					"",
+					""
+				],
+				[
+					"5",
+					"",
+					"GM",
+					"Navara, David",
+					"309095",
+					"CZE",
+					"2674",
+					"",
+					""
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/cheurind24.pgn"
+			],
+			"DATES": "07.11.2024-_20.11.2024",
+			"TYPE": "Swiss",
+			"EVENT": "24th_ch-EUR_Indiv_2024"
+		},
+		{
+			"RDS": "7",
+			"RES": "https://chess-results.com/tnr1053415.aspx",
+			"Results": [
+				[
+					"6",
+					"",
+					"GM",
+					"Erigaisi, Arjun",
+					"35009192",
+					"IND",
+					"2799"
+				],
+				[
+					"4",
+					"",
+					"GM",
+					"Aronian, Levon",
+					"13300474",
+					"USA",
+					"2739"
+				],
+				[
+					"3",
+					"",
+					"GM",
+					"Vidit, Santosh Gujrathi",
+					"5029465",
+					"IND",
+					"2739"
+				],
+				[
+					"2",
+					"",
+					"GM",
+					"Vachier-Lagrave, Maxime",
+					"623539",
+					"FRA",
+					"2737"
+				],
+				[
+					"7",
+					"",
+					"GM",
+					"Maghsoodloo, Parham",
+					"12539929",
+					"IRI",
+					"2712"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/chennaigm24.pgn"
+			],
+			"DATES": "05.11.2024-_11.11.2024",
+			"TYPE": "SRR",
+			"EVENT": "Chennai_GM_2024"
+		},
+		{
+			"RDS": "7",
+			"RES": "https://chess-results.com/tnr1053415.aspx",
+			"Results": [
+				[
+					"6",
+					"",
+					"GM",
+					"Erigaisi, Arjun",
+					"35009192",
+					"IND",
+					"2799"
+				],
+				[
+					"4",
+					"",
+					"GM",
+					"Aronian, Levon",
+					"13300474",
+					"USA",
+					"2739"
+				],
+				[
+					"3",
+					"",
+					"GM",
+					"Vidit, Santosh Gujrathi",
+					"5029465",
+					"IND",
+					"2739"
+				],
+				[
+					"2",
+					"",
+					"GM",
+					"Vachier-Lagrave, Maxime",
+					"623539",
+					"FRA",
+					"2737"
+				],
+				[
+					"7",
+					"",
+					"GM",
+					"Maghsoodloo, Parham",
+					"12539929",
+					"IRI",
+					"2712"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/chennaichall24.pgn"
+			],
+			"DATES": "05.11.2024-_11.11.2024",
+			"TYPE": "SRR",
+			"EVENT": "Chennai_Challengers_2024"
+		},
+		{
+			"RDS": "9",
+			"RES": "https://chess-results.com/tnr1028685.aspx",
+			"Results": [
+				[
+					"3",
+					"",
+					"GM",
+					"Tan, Zhongyi",
+					"8603642",
+					"CHN",
+					"2551"
+				],
+				[
+					"10",
+					"",
+					"GM",
+					"Goryachkina, Aleksandra",
+					"4147103",
+					"FID",
+					"2533"
+				],
+				[
+					"9",
+					"",
+					"GM",
+					"Koneru, Humpy",
+					"5008123",
+					"IND",
+					"2530"
+				],
+				[
+					"1",
+					"",
+					"GM",
+					"Lagno, Kateryna",
+					"14109336",
+					"FID",
+					"2527"
+				],
+				[
+					"2",
+					"",
+					"IM",
+					"Divya, Deshmukh",
+					"35006916",
+					"IND",
+					"2501"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/shymwgp24.pgn"
+			],
+			"DATES": "29.10.2024-_09.11.2024",
+			"TYPE": "SRR",
+			"EVENT": "Shymkent_WGP_2024"
+		},
+		{
+			"RDS": "9",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/champshow9lx24.pgn"
+			],
+			"DATES": "27.10.2024-_30.10.2024",
+			"TYPE": "SRR",
+			"EVENT": "Champ_Showdown_9LX_2024"
+		},
+		{
+			"RDS": "9",
+			"RES": "https://chess-results.com/tnr1029628.aspx",
+			"Results": [
+				[
+					"1",
+					"",
+					"GM",
+					"Murali Karthikeyan",
+					"5074452",
+					"2624"
+				],
+				[
+					"2",
+					"",
+					"GM",
+					"Surya Shekhar Ganguly",
+					"5002150",
+					"2598"
+				],
+				[
+					"3",
+					"",
+					"GM",
+					"Gupta Sankalp",
+					"5097010",
+					"2534"
+				],
+				[
+					"4",
+					"",
+					"GM",
+					"Sabino Brunello",
+					"813613",
+					"2514"
+				],
+				[
+					"5",
+					"",
+					"IM",
+					"Nico Zwirs",
+					"1036432",
+					"2474"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/hoogop24.pgn"
+			],
+			"DATES": "26.10.2024-_02.11.2024",
+			"TYPE": "Swiss",
+			"EVENT": "27th_Hoogeveen_Open_2024"
+		},
+		{
+			"RDS": "6",
+			"RES": "https://chess-results.com/tnr1029628.aspx",
+			"Results": [
+				[
+					"1",
+					"",
+					"GM",
+					"Murali Karthikeyan",
+					"5074452",
+					"2624"
+				],
+				[
+					"2",
+					"",
+					"GM",
+					"Surya Shekhar Ganguly",
+					"5002150",
+					"2598"
+				],
+				[
+					"3",
+					"",
+					"GM",
+					"Gupta Sankalp",
+					"5097010",
+					"2534"
+				],
+				[
+					"4",
+					"",
+					"GM",
+					"Sabino Brunello",
+					"813613",
+					"2514"
+				],
+				[
+					"5",
+					"",
+					"IM",
+					"Nico Zwirs",
+					"1036432",
+					"2474"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/hoogcrown24.pgn"
+			],
+			"DATES": "26.10.2024-_02.11.2024",
+			"TYPE": "DRR",
+			"EVENT": "27th_Hoogeveen_Crown"
+		},
+		{
+			"RDS": "9",
+			"RES": "https://chess-results.com/tnr1046634.aspx",
+			"Results": [
+				[
+					"1",
+					"GM",
+					"Zvjaginsev, Vadim",
+					"13049",
+					"4113403",
+					"RUS",
+					"2540",
+					"2552",
+					"Москва"
+				],
+				[
+					"2",
+					"GM",
+					"Afanasiev, Nikita",
+					"5880",
+					"24183555",
+					"RUS",
+					"2533",
+					"2542",
+					"Краснодарский край"
+				],
+				[
+					"3",
+					"GM",
+					"Zakhartsov, Vladimir",
+					"541",
+					"4145097",
+					"RUS",
+					"2496",
+					"2506",
+					"Москва"
+				],
+				[
+					"4",
+					"GM",
+					"Levin, Evgeny A.",
+					"987",
+					"4182596",
+					"RUS",
+					"2469",
+					"2477",
+					"Санкт-Петербург"
+				],
+				[
+					"5",
+					"GM",
+					"Rozum, Ivan",
+					"815",
+					"24104272",
+					"RUS",
+					"2466",
+					"2467",
+					"Вологодская область"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/chigmem24.pgn"
+			],
+			"DATES": "25.10.2024-_03.11.2024",
+			"TYPE": "Swiss",
+			"EVENT": "Chigorin_Memorial_2024"
+		},
+		{
+			"RDS": "7",
+			"RES": "https://chess-results.com/tnr989841.aspx",
+			"Results": [
+				[
+					"1",
+					"3",
+					"",
+					"Novy Bor Chess Club",
+					"7",
+					"6",
+					"1",
+					"0",
+					"13",
+					"249,5",
+					"29,5",
+					"183",
+					"168,3"
+				],
+				[
+					"2",
+					"2",
+					"",
+					"Alkaloid",
+					"7",
+					"5",
+					"2",
+					"0",
+					"12",
+					"243,5",
+					"29,5",
+					"179",
+					"150,3"
+				],
+				[
+					"3",
+					"13",
+					"",
+					"Vados Chess Club",
+					"7",
+					"5",
+					"1",
+					"1",
+					"11",
+					"232,5",
+					"29,5",
+					"167,5",
+					"125,5"
+				],
+				[
+					"4",
+					"5",
+					"",
+					"Turkish Airlines",
+					"7",
+					"4",
+					"3",
+					"0",
+					"11",
+					"225,5",
+					"28",
+					"178,5",
+					"136,8"
+				],
+				[
+					"5",
+					"6",
+					"",
+					"TAJFUN-ŠK Ljubljana",
+					"7",
+					"5",
+					"1",
+					"1",
+					"11",
+					"217",
+					"29",
+					"176,5",
+					"134,5"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/ecc24.pgn"
+			],
+			"DATES": "20.10.2024-_26.10.2024",
+			"TYPE": "EurC",
+			"EVENT": "39th_ECC_Open_2024"
+		},
+		{
+			"RDS": "7",
+			"RES": "https://chess-results.com/tnr989841.aspx",
+			"Results": [
+				[
+					"1",
+					"3",
+					"",
+					"Novy Bor Chess Club",
+					"7",
+					"6",
+					"1",
+					"0",
+					"13",
+					"249,5",
+					"29,5",
+					"183",
+					"168,3"
+				],
+				[
+					"2",
+					"2",
+					"",
+					"Alkaloid",
+					"7",
+					"5",
+					"2",
+					"0",
+					"12",
+					"243,5",
+					"29,5",
+					"179",
+					"150,3"
+				],
+				[
+					"3",
+					"13",
+					"",
+					"Vados Chess Club",
+					"7",
+					"5",
+					"1",
+					"1",
+					"11",
+					"232,5",
+					"29,5",
+					"167,5",
+					"125,5"
+				],
+				[
+					"4",
+					"5",
+					"",
+					"Turkish Airlines",
+					"7",
+					"4",
+					"3",
+					"0",
+					"11",
+					"225,5",
+					"28",
+					"178,5",
+					"136,8"
+				],
+				[
+					"5",
+					"6",
+					"",
+					"TAJFUN-ŠK Ljubljana",
+					"7",
+					"5",
+					"1",
+					"1",
+					"11",
+					"217",
+					"29",
+					"176,5",
+					"134,5"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/eccw24.pgn"
+			],
+			"DATES": "20.10.2024-_26.10.2024",
+			"TYPE": "League",
+			"EVENT": "28th_ECC_Women_2024"
+		},
+		{
+			"RDS": "4",
+			"RES": "https://chess-results.com/tnr1024756.aspx",
+			"Results": [
+				[
+					"1",
+					"",
+					"GM",
+					"Erigaisi, Arjun",
+					"35009192",
+					"IND",
+					"2797"
+				],
+				[
+					"2",
+					"",
+					"GM",
+					"Abdusattorov, Nodirbek",
+					"14204118",
+					"UZB",
+					"2783"
+				],
+				[
+					"3",
+					"",
+					"GM",
+					"Firouzja, Alireza",
+					"12573981",
+					"FRA",
+					"2767"
+				],
+				[
+					"4",
+					"",
+					"GM",
+					"Anand, Viswanathan",
+					"5000017",
+					"IND",
+					"2751"
+				],
+				[
+					"5",
+					"",
+					"GM",
+					"Praggnanandhaa, R",
+					"25059530",
+					"IND",
+					"2746"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/wrchessmast24.pgn"
+			],
+			"DATES": "14.10.2024-_18.10.2024",
+			"TYPE": "KO",
+			"EVENT": "WR_Chess_Masters_2024"
+		},
+		{
+			"RDS": "11",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/chusa24.pgn"
+			],
+			"DATES": "11.10.2024-_24.10.2024",
+			"TYPE": "SRR",
+			"EVENT": "ch-USA_2024"
+		},
+		{
+			"RDS": "11",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/chusaw24.pgn"
+			],
+			"DATES": "11.10.2024-_24.10.2024",
+			"TYPE": "SRR",
+			"EVENT": "ch-USA_w_2024"
+		},
+		{
+			"RDS": "5",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/chusayoo24.pgn"
+			],
+			"DATES": "11.10.2024-_24.10.2024",
+			"TYPE": "",
+			"EVENT": "ch-USA_Cancelled_Games"
+		},
+		{
+			"RDS": "10",
+			"RES": "https://chess-results.com/tnr1017958.aspx",
+			"Results": [
+				[
+					"1",
+					"",
+					"PBG Alaskan Knights",
+					"*",
+					"*",
+					"3½",
+					"2½",
+					"4½",
+					"4",
+					"5",
+					"4",
+					"3½",
+					"2½",
+					"4½",
+					"4",
+					"24",
+					"114",
+					"0"
+				],
+				[
+					"2",
+					"",
+					"Alpine Sg Pipers",
+					"2½",
+					"3½",
+					"*",
+					"*",
+					"1½",
+					"2½",
+					"3½",
+					"3½",
+					"4",
+					"2",
+					"3½",
+					"4½",
+					"18",
+					"88",
+					"0"
+				],
+				[
+					"3",
+					"",
+					"Triveni Continental Kings",
+					"1½",
+					"2",
+					"4½",
+					"3½",
+					"*",
+					"*",
+					"4½",
+					"2",
+					"4½",
+					"3",
+					"3",
+					"3",
+					"15",
+					"99",
+					"0"
+				],
+				[
+					"4",
+					"",
+					"American Gambits",
+					"1",
+					"2",
+					"2½",
+					"2½",
+					"1½",
+					"4",
+					"*",
+					"*",
+					"4",
+					"3½",
+					"4",
+					"2",
+					"12",
+					"73",
+					"0"
+				],
+				[
+					"5",
+					"",
+					"Mumba Masters",
+					"2½",
+					"3½",
+					"2",
+					"4",
+					"1½",
+					"3",
+					"2",
+					"2½",
+					"*",
+					"*",
+					"4",
+					"2",
+					"10",
+					"74",
+					"0"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/globalchessl24.pgn"
+			],
+			"DATES": "03.10.2024-_12.10.2024",
+			"TYPE": "DRR",
+			"EVENT": "TechM_GCL_2024"
+		},
+		{
+			"RDS": "2",
+			"RES": "https://chess-results.com/tnr1017958.aspx",
+			"Results": [
+				[
+					"1",
+					"",
+					"PBG Alaskan Knights",
+					"*",
+					"*",
+					"3½",
+					"2½",
+					"4½",
+					"4",
+					"5",
+					"4",
+					"3½",
+					"2½",
+					"4½",
+					"4",
+					"24",
+					"114",
+					"0"
+				],
+				[
+					"2",
+					"",
+					"Alpine Sg Pipers",
+					"2½",
+					"3½",
+					"*",
+					"*",
+					"1½",
+					"2½",
+					"3½",
+					"3½",
+					"4",
+					"2",
+					"3½",
+					"4½",
+					"18",
+					"88",
+					"0"
+				],
+				[
+					"3",
+					"",
+					"Triveni Continental Kings",
+					"1½",
+					"2",
+					"4½",
+					"3½",
+					"*",
+					"*",
+					"4½",
+					"2",
+					"4½",
+					"3",
+					"3",
+					"3",
+					"15",
+					"99",
+					"0"
+				],
+				[
+					"4",
+					"",
+					"American Gambits",
+					"1",
+					"2",
+					"2½",
+					"2½",
+					"1½",
+					"4",
+					"*",
+					"*",
+					"4",
+					"3½",
+					"4",
+					"2",
+					"12",
+					"73",
+					"0"
+				],
+				[
+					"5",
+					"",
+					"Mumba Masters",
+					"2½",
+					"3½",
+					"2",
+					"4",
+					"1½",
+					"3",
+					"2",
+					"2½",
+					"*",
+					"*",
+					"4",
+					"2",
+					"10",
+					"74",
+					"0"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/globalchesslf24.pgn"
+			],
+			"DATES": "03.10.2024-_12.10.2024",
+			"TYPE": "Match",
+			"EVENT": "TechM_GCL_Final_2024"
+		},
+		{
+			"RDS": "15",
+			"RES": "https://ergebnisdienst.schachbund.de/bedt.php?liga\u003dbl",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/bund2425.pgn"
+			],
+			"DATES": "28.09.2024-_27.04.2025",
+			"TYPE": "League",
+			"EVENT": "Bundesliga_2024-25"
+		},
+		{
+			"RDS": "5",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/julbaergendiv1w24.pgn"
+			],
+			"DATES": "27.09.2024-_01.10.2024",
+			"TYPE": "DEKO",
+			"EVENT": "Julius_Baer_Gen_Cup_D1_W"
+		},
+		{
+			"RDS": "4",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/julbaergendiv1l24.pgn"
+			],
+			"DATES": "27.09.2024-_01.10.2024",
+			"TYPE": "DEKO",
+			"EVENT": "Julius_Baer_Gen_Cup_D1_L"
+		},
+		{
+			"RDS": "6",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/julbaergendiv2w24.pgn"
+			],
+			"DATES": "27.09.2024-_01.10.2024",
+			"TYPE": "DEKO",
+			"EVENT": "Julius_Baer_Gen_Cup_D2_W"
+		},
+		{
+			"RDS": "6",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/julbaergendiv2l24.pgn"
+			],
+			"DATES": "27.09.2024-_01.10.2024",
+			"TYPE": "DEKO",
+			"EVENT": "Julius_Baer_Gen_Cup_D2_L"
+		},
+		{
+			"RDS": "7",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/julbaergendiv3w24.pgn"
+			],
+			"DATES": "27.09.2024-_01.10.2024",
+			"TYPE": "DEKO",
+			"EVENT": "Julius_Baer_Gen_Cup_D3_W"
+		},
+		{
+			"RDS": "4",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/julbaergendiv3l24.pgn"
+			],
+			"DATES": "27.09.2024-_01.10.2024",
+			"TYPE": "DEKO",
+			"EVENT": "Julius_Baer_Gen_Cup_D3_L"
+		},
+		{
+			"RDS": "7",
+			"RES": "https://chess-results.com/tnr1015277.aspx",
+			"Results": [
+				[
+					"1",
+					"GM",
+					"Nepomniachtchi, Ian",
+					"4168119",
+					"FID",
+					"2752"
+				],
+				[
+					"2",
+					"GM",
+					"Artemiev, Vladislav",
+					"24101605",
+					"FID",
+					"2740"
+				],
+				[
+					"3",
+					"GM",
+					"Abdusattorov, Nodirbek",
+					"14204118",
+					"UZB",
+					"2723"
+				],
+				[
+					"4",
+					"GM",
+					"Rapport, Richard",
+					"738590",
+					"HUN",
+					"2704"
+				],
+				[
+					"8",
+					"GM",
+					"Mamedyarov, Shakhriyar",
+					"13401319",
+					"AZE",
+					"2683"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/gashmemr24.pgn"
+			],
+			"DATES": "26.09.2024-_27.09.2024",
+			"TYPE": "SRR",
+			"EVENT": "10th_Gashimov_Mem_Rapid"
+		},
+		{
+			"RDS": "14",
+			"RES": "https://chess-results.com/tnr1015277.aspx",
+			"Results": [
+				[
+					"1",
+					"GM",
+					"Nepomniachtchi, Ian",
+					"4168119",
+					"FID",
+					"2752"
+				],
+				[
+					"2",
+					"GM",
+					"Artemiev, Vladislav",
+					"24101605",
+					"FID",
+					"2740"
+				],
+				[
+					"3",
+					"GM",
+					"Abdusattorov, Nodirbek",
+					"14204118",
+					"UZB",
+					"2723"
+				],
+				[
+					"4",
+					"GM",
+					"Rapport, Richard",
+					"738590",
+					"HUN",
+					"2704"
+				],
+				[
+					"8",
+					"GM",
+					"Mamedyarov, Shakhriyar",
+					"13401319",
+					"AZE",
+					"2683"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/gashmemb24.pgn"
+			],
+			"DATES": "26.09.2024-_27.09.2024",
+			"TYPE": "DRR",
+			"EVENT": "10th_Gashimov_Mem_Blitz"
+		},
+		{
+			"RDS": "9",
+			"RES": "https://chess-results.com/tnr973082.aspx",
+			"Results": [
+				[
+					"1",
+					"",
+					"GM",
+					"Sokolovsky, Yahli",
+					"24755",
+					"2820242",
+					"ISR",
+					"2563",
+					"2291",
+					"2563"
+				],
+				[
+					"2",
+					"",
+					"GM",
+					"Kobo, Ori",
+					"19536",
+					"2812320",
+					"ISR",
+					"2534",
+					"2438",
+					"2534"
+				],
+				[
+					"3",
+					"",
+					"IM",
+					"Gorodetzky, David",
+					"20736",
+					"2813416",
+					"ISR",
+					"2522",
+					"2397",
+					"2522"
+				],
+				[
+					"4",
+					"",
+					"IM",
+					"Erenberg, Ariel",
+					"20256",
+					"2811634",
+					"ISR",
+					"2514",
+					"2383",
+					"2514"
+				],
+				[
+					"5",
+					"",
+					"IM",
+					"Rozen, Eytan",
+					"23739",
+					"2816750",
+					"ISR",
+					"2505",
+					"2444",
+					"2505"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/jerusalemmast24.pgn"
+			],
+			"DATES": "24.09.2024-_25.09.2024",
+			"TYPE": "SRR",
+			"EVENT": "Jerusalem_Masters_2024"
+		},
+		{
+			"RDS": "9",
+			"RES": "https://chess-results.com/tnr973082.aspx",
+			"Results": [
+				[
+					"1",
+					"",
+					"GM",
+					"Sokolovsky, Yahli",
+					"24755",
+					"2820242",
+					"ISR",
+					"2563",
+					"2291",
+					"2563"
+				],
+				[
+					"2",
+					"",
+					"GM",
+					"Kobo, Ori",
+					"19536",
+					"2812320",
+					"ISR",
+					"2534",
+					"2438",
+					"2534"
+				],
+				[
+					"3",
+					"",
+					"IM",
+					"Gorodetzky, David",
+					"20736",
+					"2813416",
+					"ISR",
+					"2522",
+					"2397",
+					"2522"
+				],
+				[
+					"4",
+					"",
+					"IM",
+					"Erenberg, Ariel",
+					"20256",
+					"2811634",
+					"ISR",
+					"2514",
+					"2383",
+					"2514"
+				],
+				[
+					"5",
+					"",
+					"IM",
+					"Rozen, Eytan",
+					"23739",
+					"2816750",
+					"ISR",
+					"2505",
+					"2444",
+					"2505"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/jerusalemopen24.pgn"
+			],
+			"DATES": "24.09.2024-_25.09.2024",
+			"TYPE": "Swiss",
+			"EVENT": "Jerusalem_Open_2024"
+		},
+		{
+			"RDS": "11",
+			"RES": "https://chess-results.com/tnr967173.aspx",
+			"Results": [
+				[
+					"1",
+					"2",
+					"IND",
+					"",
+					"India",
+					"11",
+					"10",
+					"1",
+					"0",
+					"21",
+					"476,5",
+					"35",
+					"156"
+				],
+				[
+					"2",
+					"1",
+					"USA",
+					"",
+					"United States of America",
+					"11",
+					"8",
+					"1",
+					"2",
+					"17",
+					"395",
+					"29,5",
+					"156"
+				],
+				[
+					"3",
+					"4",
+					"UZB",
+					"",
+					"Uzbekistan",
+					"11",
+					"8",
+					"1",
+					"2",
+					"17",
+					"387",
+					"29",
+					"154"
+				],
+				[
+					"4",
+					"3",
+					"CHN",
+					"",
+					"China",
+					"11",
+					"8",
+					"1",
+					"2",
+					"17",
+					"379,5",
+					"28",
+					"161"
+				],
+				[
+					"5",
+					"16",
+					"SRB",
+					"",
+					"Serbia",
+					"11",
+					"8",
+					"1",
+					"2",
+					"17",
+					"360,5",
+					"29",
+					"151"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/olym24.pgn"
+			],
+			"DATES": "11.09.2024-_22.09.2024",
+			"TYPE": "Olym",
+			"EVENT": "45th_Olympiad_2024"
+		},
+		{
+			"RDS": "11",
+			"RES": "https://chess-results.com/tnr967173.aspx",
+			"Results": [
+				[
+					"1",
+					"2",
+					"IND",
+					"",
+					"India",
+					"11",
+					"10",
+					"1",
+					"0",
+					"21",
+					"476,5",
+					"35",
+					"156"
+				],
+				[
+					"2",
+					"1",
+					"USA",
+					"",
+					"United States of America",
+					"11",
+					"8",
+					"1",
+					"2",
+					"17",
+					"395",
+					"29,5",
+					"156"
+				],
+				[
+					"3",
+					"4",
+					"UZB",
+					"",
+					"Uzbekistan",
+					"11",
+					"8",
+					"1",
+					"2",
+					"17",
+					"387",
+					"29",
+					"154"
+				],
+				[
+					"4",
+					"3",
+					"CHN",
+					"",
+					"China",
+					"11",
+					"8",
+					"1",
+					"2",
+					"17",
+					"379,5",
+					"28",
+					"161"
+				],
+				[
+					"5",
+					"16",
+					"SRB",
+					"",
+					"Serbia",
+					"11",
+					"8",
+					"1",
+					"2",
+					"17",
+					"360,5",
+					"29",
+					"151"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/olymw24.pgn"
+			],
+			"DATES": "11.09.2024-_22.09.2024",
+			"TYPE": "Olym",
+			"EVENT": "Olympiad_Women_2024"
+		},
+		{
+			"RDS": "2",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/chesscomspeedf24.pgn"
+			],
+			"DATES": "06.09.2024-_08.09.2024",
+			"TYPE": "KO",
+			"EVENT": "SpeedChess_Final_2024"
+		},
+		{
+			"RDS": "9",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/sinqcup24.pgn"
+			],
+			"DATES": "19.08.2024-_31.08.2024",
+			"TYPE": "SRR",
+			"EVENT": "11th_Sinquefield_Cup"
+		},
+		{
+			"RDS": "9",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/rubinsteingm24.pgn"
+			],
+			"DATES": "17.08.2024-_24.08.2024",
+			"TYPE": "SRR",
+			"EVENT": "60th_Rubinstein_Mem_GM"
+		},
+		{
+			"RDS": "11",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/chrus24.pgn"
+			],
+			"DATES": "16.08.2024-_29.08.2024",
+			"TYPE": "SRR",
+			"EVENT": "77th_ch-RUS_2024"
+		},
+		{
+			"RDS": "11",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/chrusw24.pgn"
+			],
+			"DATES": "16.08.2024-_29.08.2024",
+			"TYPE": "SRR",
+			"EVENT": "74th_ch-RUS_w_2024"
+		},
+		{
+			"RDS": "9",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/tbilisiwgp24.pgn"
+			],
+			"DATES": "14.08.2024-_25.08.2024",
+			"TYPE": "SRR",
+			"EVENT": "Tbilisi_WGP_2024"
+		},
+		{
+			"RDS": "9",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/stlrap24.pgn"
+			],
+			"DATES": "12.08.2024-_16.08.2024",
+			"TYPE": "SRR",
+			"EVENT": "Saint_Louis_Rapid_2024"
+		},
+		{
+			"RDS": "18",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/stlbli24.pgn"
+			],
+			"DATES": "12.08.2024-_16.08.2024",
+			"TYPE": "DRR",
+			"EVENT": "Saint_Louis_Blitz_2024"
+		},
+		{
+			"RDS": "12",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/fidewrt24.pgn"
+			],
+			"DATES": "02.08.2024-_05.08.2024",
+			"TYPE": "Swiss",
+			"EVENT": "FIDE_World_Rapid_Team"
+		},
+		{
+			"RDS": "4",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/fidewrbtf24.pgn"
+			],
+			"DATES": "02.08.2024-_05.08.2024",
+			"TYPE": "KO",
+			"EVENT": "FIDE_World_Bl_Team_Final"
+		},
+		{
+			"RDS": "7",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/fidewrbta24.pgn"
+			],
+			"DATES": "02.08.2024-_05.08.2024",
+			"TYPE": "SRR",
+			"EVENT": "FIDE_World_Bl_Team_Pool_A"
+		},
+		{
+			"RDS": "7",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/fidewrbtb24.pgn"
+			],
+			"DATES": "02.08.2024-_05.08.2024",
+			"TYPE": "SRR",
+			"EVENT": "FIDE_World_Bl_Team_Pool_B"
+		},
+		{
+			"RDS": "7",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/fidewrbtc24.pgn"
+			],
+			"DATES": "02.08.2024-_05.08.2024",
+			"TYPE": "SRR",
+			"EVENT": "FIDE_World_Bl_Team_Pool_C"
+		},
+		{
+			"RDS": "7",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/fidewrbtd24.pgn"
+			],
+			"DATES": "02.08.2024-_05.08.2024",
+			"TYPE": "SRR",
+			"EVENT": "FIDE_World_Bl_Team_Pool_D"
+		},
+		{
+			"RDS": "7",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/fidewrbte24.pgn"
+			],
+			"DATES": "02.08.2024-_05.08.2024",
+			"TYPE": "SRR",
+			"EVENT": "FIDE_World_Bl_Team_Pool_E"
+		},
+		{
+			"RDS": "9",
+			"RES": "https://chess-results.com/tnr969132.aspx",
+			"Results": [
+				[
+					"1",
+					"",
+					"GM",
+					"Howell, David Wl",
+					"410608",
+					"ENG",
+					"2675",
+					""
+				],
+				[
+					"2",
+					"",
+					"GM",
+					"Adams, Michael",
+					"400041",
+					"ENG",
+					"2672",
+					""
+				],
+				[
+					"3",
+					"",
+					"GM",
+					"Jones, Gawain Cb",
+					"409561",
+					"ENG",
+					"2640",
+					""
+				],
+				[
+					"4",
+					"",
+					"GM",
+					"Mcshane, Luke J",
+					"404853",
+					"ENG",
+					"2617",
+					""
+				],
+				[
+					"5",
+					"",
+					"GM",
+					"Conquest, Stuart C",
+					"400181",
+					"ENG",
+					"2510",
+					""
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/chgbr24.pgn"
+			],
+			"DATES": "25.07.2024-_04.08.2024",
+			"TYPE": "Swiss",
+			"EVENT": "110th_ch-GBR_2024"
+		},
+		{
+			"RDS": "2",
+			"RES": "https://chess-results.com/tnr969132.aspx",
+			"Results": [
+				[
+					"1",
+					"",
+					"GM",
+					"Howell, David Wl",
+					"410608",
+					"ENG",
+					"2675",
+					""
+				],
+				[
+					"2",
+					"",
+					"GM",
+					"Adams, Michael",
+					"400041",
+					"ENG",
+					"2672",
+					""
+				],
+				[
+					"3",
+					"",
+					"GM",
+					"Jones, Gawain Cb",
+					"409561",
+					"ENG",
+					"2640",
+					""
+				],
+				[
+					"4",
+					"",
+					"GM",
+					"Mcshane, Luke J",
+					"404853",
+					"ENG",
+					"2617",
+					""
+				],
+				[
+					"5",
+					"",
+					"GM",
+					"Conquest, Stuart C",
+					"400181",
+					"ENG",
+					"2510",
+					""
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/chgbrtb24.pgn"
+			],
+			"DATES": "25.07.2024-_04.08.2024",
+			"TYPE": "Match",
+			"EVENT": "110th_ch-GBR_TB_2024"
+		},
+		{
+			"RDS": "5",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/crunchmastdiv1w24.pgn"
+			],
+			"DATES": "19.07.2024-_24.07.2024",
+			"TYPE": "DEKO",
+			"EVENT": "CrunchLab_Masters_Div_1_W"
+		},
+		{
+			"RDS": "4",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/crunchmastdiv1l24.pgn"
+			],
+			"DATES": "19.07.2024-_24.07.2024",
+			"TYPE": "DEKO",
+			"EVENT": "CrunchLab_Masters_Div_1_L"
+		},
+		{
+			"RDS": "6",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/crunchmastdiv2w24.pgn"
+			],
+			"DATES": "19.07.2024-_24.07.2024",
+			"TYPE": "DEKO",
+			"EVENT": "CrunchLab_Masters_Div_2_W"
+		},
+		{
+			"RDS": "6",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/crunchmastdiv2l24.pgn"
+			],
+			"DATES": "19.07.2024-_24.07.2024",
+			"TYPE": "DEKO",
+			"EVENT": "CrunchLab_Masters_Div_2_L"
+		},
+		{
+			"RDS": "7",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/crunchmastdiv3w24.pgn"
+			],
+			"DATES": "19.07.2024-_24.07.2024",
+			"TYPE": "DEKO",
+			"EVENT": "CrunchLab_Masters_Div_3_W"
+		},
+		{
+			"RDS": "4",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/crunchmastdiv3l24.pgn"
+			],
+			"DATES": "19.07.2024-_24.07.2024",
+			"TYPE": "DEKO",
+			"EVENT": "CrunchLab_Masters_Div_3_L"
+		},
+		{
+			"RDS": "9",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/chusajun24.pgn"
+			],
+			"DATES": "16.07.2024-_26.07.2024",
+			"TYPE": "SRR",
+			"EVENT": "ch-USA_Junior_2024"
+		},
+		{
+			"RDS": "9",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/chusajung24.pgn"
+			],
+			"DATES": "16.07.2024-_26.07.2024",
+			"TYPE": "SRR",
+			"EVENT": "ch-USA_Girls_2024"
+		},
+		{
+			"RDS": "9",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/chusasen24.pgn"
+			],
+			"DATES": "16.07.2024-_26.07.2024",
+			"TYPE": "SRR",
+			"EVENT": "ch-USA_Seniors_2024"
+		},
+		{
+			"RDS": "5",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/bielgm1q24.pgn"
+			],
+			"DATES": "13.07.2024-_26.07.2024",
+			"TYPE": "SRR",
+			"EVENT": "57th_Biel_GM1_Qual_2024"
+		},
+		{
+			"RDS": "3",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/bielgm1f24.pgn"
+			],
+			"DATES": "13.07.2024-_26.07.2024",
+			"TYPE": "SRR",
+			"EVENT": "57th_Biel_GM1_Final_2024"
+		},
+		{
+			"RDS": "5",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/bielgm1rap24.pgn"
+			],
+			"DATES": "13.07.2024-_26.07.2024",
+			"TYPE": "SRR",
+			"EVENT": "57th_Biel_GM1_Rapid_2024"
+		},
+		{
+			"RDS": "7",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/bielgm196024.pgn"
+			],
+			"DATES": "13.07.2024-_26.07.2024",
+			"TYPE": "Swiss",
+			"EVENT": "57th_Biel_GM1-960_2024"
+		},
+		{
+			"RDS": "5",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/bielgm2q24.pgn"
+			],
+			"DATES": "13.07.2024-_26.07.2024",
+			"TYPE": "SRR",
+			"EVENT": "57th_Biel_GM2_Qual_2024"
+		},
+		{
+			"RDS": "3",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/bielgm2f24.pgn"
+			],
+			"DATES": "13.07.2024-_26.07.2024",
+			"TYPE": "SRR",
+			"EVENT": "57th_Biel_GM2_Final_2024"
+		},
+		{
+			"RDS": "5",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/bielgm2rap24.pgn"
+			],
+			"DATES": "13.07.2024-_26.07.2024",
+			"TYPE": "SRR",
+			"EVENT": "57th_Biel_GM2_Rapid_2024"
+		},
+		{
+			"RDS": "7",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/bielgm296024.pgn"
+			],
+			"DATES": "13.07.2024-_26.07.2024",
+			"TYPE": "Swiss",
+			"EVENT": "57th_Biel_GM2-960_2024"
+		},
+		{
+			"RDS": "10",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/bielop24.pgn"
+			],
+			"DATES": "13.07.2024-_26.07.2024",
+			"TYPE": "Swiss",
+			"EVENT": "57th_Biel_Master_Open"
+		},
+		{
+			"RDS": "9",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/bielrapop24.pgn"
+			],
+			"DATES": "13.07.2024-_26.07.2024",
+			"TYPE": "Swiss",
+			"EVENT": "57th_Biel_Rapid_Open"
+		},
+		{
+			"RDS": "9",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/zagrebrap24.pgn"
+			],
+			"DATES": "10.07.2024-_14.07.2024",
+			"TYPE": "SRR",
+			"EVENT": "Superbet_CRO_Rapid_2024"
+		},
+		{
+			"RDS": "18",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/zagrebbli24.pgn"
+			],
+			"DATES": "10.07.2024-_14.07.2024",
+			"TYPE": "DRR",
+			"EVENT": "Superbet_CRO_Blitz_2024"
+		},
+		{
+			"RDS": "9",
+			"RES": "https://chess-results.com/tnr958687.aspx",
+			"Results": [
+				[
+					"10",
+					"GM",
+					"Caruana, Fabiano",
+					"2020009",
+					"USA",
+					"2805"
+				],
+				[
+					"8",
+					"GM",
+					"Nepomniachtchi, Ian",
+					"4168119",
+					"FID",
+					"2770"
+				],
+				[
+					"2",
+					"GM",
+					"Abdusattorov, Nodirbek",
+					"14204118",
+					"UZB",
+					"2766"
+				],
+				[
+					"4",
+					"GM",
+					"Gukesh, Dommaraju",
+					"46616543",
+					"IND",
+					"2763"
+				],
+				[
+					"6",
+					"GM",
+					"So, Wesley",
+					"5202213",
+					"USA",
+					"2757"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/superbetcl24.pgn"
+			],
+			"DATES": "25.06.2024-_06.07.2024",
+			"TYPE": "SRR",
+			"EVENT": "Superbet_ROM_Classic_2024"
+		},
+		{
+			"RDS": "3",
+			"RES": "https://chess-results.com/tnr958687.aspx",
+			"Results": [
+				[
+					"10",
+					"GM",
+					"Caruana, Fabiano",
+					"2020009",
+					"USA",
+					"2805"
+				],
+				[
+					"8",
+					"GM",
+					"Nepomniachtchi, Ian",
+					"4168119",
+					"FID",
+					"2770"
+				],
+				[
+					"2",
+					"GM",
+					"Abdusattorov, Nodirbek",
+					"14204118",
+					"UZB",
+					"2766"
+				],
+				[
+					"4",
+					"GM",
+					"Gukesh, Dommaraju",
+					"46616543",
+					"IND",
+					"2763"
+				],
+				[
+					"6",
+					"GM",
+					"So, Wesley",
+					"5202213",
+					"USA",
+					"2757"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/superbetcltb24.pgn"
+			],
+			"DATES": "25.06.2024-_06.07.2024",
+			"TYPE": "SRR",
+			"EVENT": "Superbet_Classic_TB_2024"
+		},
+		{
+			"RDS": "9",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/cairnscup24.pgn"
+			],
+			"DATES": "13.06.2024-_23.06.2024",
+			"TYPE": "SRR",
+			"EVENT": "4th_Cairns_Cup_2024"
+		},
+		{
+			"RDS": "9",
+			"RES": "https://chess-results.com/tnr953203.aspx",
+			"Results": [
+				[
+					"3",
+					"",
+					"GM",
+					"Erigaisi Arjun",
+					"35009192",
+					"IND",
+					"2761"
+				],
+				[
+					"1",
+					"",
+					"GM",
+					"Tabatabaei M. Amin",
+					"12521213",
+					"IRI",
+					"2713"
+				],
+				[
+					"2",
+					"",
+					"GM",
+					"Sevian Samuel",
+					"2040506",
+					"USA",
+					"2687"
+				],
+				[
+					"5",
+					"",
+					"GM",
+					"Deac Bogdan-Daniel",
+					"1226380",
+					"ROU",
+					"2680"
+				],
+				[
+					"10",
+					"",
+					"GM",
+					"Martirosyan Haik M.",
+					"13306553",
+					"ARM",
+					"2662"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/avagyanmem24.pgn"
+			],
+			"DATES": "09.06.2024-_18.06.2024",
+			"TYPE": "SRR",
+			"EVENT": "Stepan_Avagyan_Mem_2024"
+		},
+		{
+			"RDS": "9",
+			"RES": "https://chess-results.com/tnr951320.aspx",
+			"Results": [
+				[
+					"5",
+					"GM",
+					"Abdusattorov, Nodirbek",
+					"14204118",
+					"UZB",
+					"2766"
+				],
+				[
+					"7",
+					"GM",
+					"Mamedyarov, Shakhriyar",
+					"13401319",
+					"AZE",
+					"2734"
+				],
+				[
+					"6",
+					"GM",
+					"Maghsoodloo, Parham",
+					"12539929",
+					"IRI",
+					"2733"
+				],
+				[
+					"4",
+					"GM",
+					"Vidit, Santosh Gujrathi",
+					"5029465",
+					"IND",
+					"2721"
+				],
+				[
+					"1",
+					"GM",
+					"Grischuk, Alexander",
+					"4126025",
+					"FID",
+					"2719"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/uzchesscupmast24.pgn"
+			],
+			"DATES": "06.06.2024-_14.06.2024",
+			"TYPE": "SRR",
+			"EVENT": "UzChess_Cup_Masters_2024"
+		},
+		{
+			"RDS": "9",
+			"RES": "https://chess-results.com/tnr951320.aspx",
+			"Results": [
+				[
+					"5",
+					"GM",
+					"Abdusattorov, Nodirbek",
+					"14204118",
+					"UZB",
+					"2766"
+				],
+				[
+					"7",
+					"GM",
+					"Mamedyarov, Shakhriyar",
+					"13401319",
+					"AZE",
+					"2734"
+				],
+				[
+					"6",
+					"GM",
+					"Maghsoodloo, Parham",
+					"12539929",
+					"IRI",
+					"2733"
+				],
+				[
+					"4",
+					"GM",
+					"Vidit, Santosh Gujrathi",
+					"5029465",
+					"IND",
+					"2721"
+				],
+				[
+					"1",
+					"GM",
+					"Grischuk, Alexander",
+					"4126025",
+					"FID",
+					"2719"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/uzchesscupchall24.pgn"
+			],
+			"DATES": "06.06.2024-_14.06.2024",
+			"TYPE": "SRR",
+			"EVENT": "UzChess_Cup_Challengers"
+		},
+		{
+			"RDS": "9",
+			"RES": "https://chess-results.com/tnr951320.aspx",
+			"Results": [
+				[
+					"5",
+					"GM",
+					"Abdusattorov, Nodirbek",
+					"14204118",
+					"UZB",
+					"2766"
+				],
+				[
+					"7",
+					"GM",
+					"Mamedyarov, Shakhriyar",
+					"13401319",
+					"AZE",
+					"2734"
+				],
+				[
+					"6",
+					"GM",
+					"Maghsoodloo, Parham",
+					"12539929",
+					"IRI",
+					"2733"
+				],
+				[
+					"4",
+					"GM",
+					"Vidit, Santosh Gujrathi",
+					"5029465",
+					"IND",
+					"2721"
+				],
+				[
+					"1",
+					"GM",
+					"Grischuk, Alexander",
+					"4126025",
+					"FID",
+					"2719"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/uzchesscupfut24.pgn"
+			],
+			"DATES": "06.06.2024-_14.06.2024",
+			"TYPE": "SRR",
+			"EVENT": "UzChess_Cup_Futures_2024"
+		},
+		{
+			"RDS": "11",
+			"RES": "https://chess-results.com/tnr945372.aspx",
+			"Results": [
+				[
+					"1",
+					"",
+					"GM",
+					"Mishra Abhimanyu",
+					"30920019",
+					"USA",
+					"2627"
+				],
+				[
+					"2",
+					"",
+					"GM",
+					"Grebnev Aleksey",
+					"34189030",
+					"FID",
+					"2540"
+				],
+				[
+					"3",
+					"",
+					"GM",
+					"Pranav Anand",
+					"46626786",
+					"IND",
+					"2540"
+				],
+				[
+					"4",
+					"",
+					"GM",
+					"Dudin Gleb",
+					"34184934",
+					"HUN",
+					"2532"
+				],
+				[
+					"5",
+					"",
+					"IM",
+					"Siddharth Jagadeesh",
+					"5818320",
+					"SGP",
+					"2525"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/wjun24.pgn"
+			],
+			"DATES": "01.06.2024-_14.06.2024",
+			"TYPE": "Swiss",
+			"EVENT": "61st_World_Juniors_2024"
+		},
+		{
+			"RDS": "11",
+			"RES": "https://chess-results.com/tnr945372.aspx",
+			"Results": [
+				[
+					"1",
+					"",
+					"GM",
+					"Mishra Abhimanyu",
+					"30920019",
+					"USA",
+					"2627"
+				],
+				[
+					"2",
+					"",
+					"GM",
+					"Grebnev Aleksey",
+					"34189030",
+					"FID",
+					"2540"
+				],
+				[
+					"3",
+					"",
+					"GM",
+					"Pranav Anand",
+					"46626786",
+					"IND",
+					"2540"
+				],
+				[
+					"4",
+					"",
+					"GM",
+					"Dudin Gleb",
+					"34184934",
+					"HUN",
+					"2532"
+				],
+				[
+					"5",
+					"",
+					"IM",
+					"Siddharth Jagadeesh",
+					"5818320",
+					"SGP",
+					"2525"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/wjung24.pgn"
+			],
+			"DATES": "01.06.2024-_14.06.2024",
+			"TYPE": "Swiss",
+			"EVENT": "40th_World_Junior_Girls"
+		},
+		{
+			"RDS": "10",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/norway24.pgn"
+			],
+			"DATES": "27.05.2024-_07.06.2024",
+			"TYPE": "DRR",
+			"EVENT": "12th_Norway_Chess_2024"
+		},
+		{
+			"RDS": "10",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/norwaya24.pgn"
+			],
+			"DATES": "27.05.2024-_07.06.2024",
+			"TYPE": "DRR",
+			"EVENT": "12th_Norway_Armageddon"
+		},
+		{
+			"RDS": "10",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/norwayw24.pgn"
+			],
+			"DATES": "27.05.2024-_07.06.2024",
+			"TYPE": "DRR",
+			"EVENT": "12th_Norway_Chess_Women"
+		},
+		{
+			"RDS": "10",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/norwayaw24.pgn"
+			],
+			"DATES": "27.05.2024-_07.06.2024",
+			"TYPE": "DRR",
+			"EVENT": "12th_Norway_Armageddon_w"
+		},
+		{
+			"RDS": "9",
+			"RES": "https://chess-results.com/tnr947196.aspx",
+			"Results": [
+				[
+					"1",
+					"",
+					"GM",
+					"Radjabov, Teimour",
+					"13400924",
+					"AZE",
+					"2723",
+					"",
+					""
+				],
+				[
+					"2",
+					"",
+					"GM",
+					"Sadhwani, Raunak",
+					"35093487",
+					"IND",
+					"2654",
+					"",
+					""
+				],
+				[
+					"3",
+					"",
+					"GM",
+					"Mendonca, Leon Luke",
+					"35028561",
+					"IND",
+					"2640",
+					"",
+					""
+				],
+				[
+					"4",
+					"",
+					"GM",
+					"Indjic, Aleksandar",
+					"911925",
+					"SRB",
+					"2603",
+					"",
+					""
+				],
+				[
+					"5",
+					"",
+					"GM",
+					"Vakhidov, Jakhongir",
+					"14201801",
+					"UZB",
+					"2599",
+					"",
+					""
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/dubaiopa24.pgn"
+			],
+			"DATES": "25.05.2024-_02.06.2024",
+			"TYPE": "Swiss",
+			"EVENT": "24th_Dubai_Open_A_2024"
+		},
+		{
+			"RDS": "9",
+			"RES": "https://tournamentservice.com/invitation.aspx?TID\u003dNorwayChessOpen2024-StavangerSjakklubb",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/norwayop24.pgn"
+			],
+			"DATES": "24.05.2024-_30.05.2024",
+			"TYPE": "Swiss",
+			"EVENT": "Norway_Chess_Open_GM_2024"
+		},
+		{
+			"RDS": "7",
+			"RES": "https://chess-results.com/tnr941348.aspx",
+			"Results": [
+				[
+					"1",
+					"",
+					"GM",
+					"Alekseenko, Kirill",
+					"AUT",
+					"2677"
+				],
+				[
+					"7",
+					"",
+					"GM",
+					"Adams, Michael",
+					"ENG",
+					"2676"
+				],
+				[
+					"3",
+					"",
+					"GM",
+					"Ponomariov, Ruslan",
+					"UKR",
+					"2646"
+				],
+				[
+					"6",
+					"",
+					"GM",
+					"Iturrizaga Bonelli, Eduardo",
+					"ESP",
+					"2590"
+				],
+				[
+					"5",
+					"",
+					"GM",
+					"Muzychuk, Mariya",
+					"UKR",
+					"2510"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/salemmast24.pgn"
+			],
+			"DATES": "22.05.2024-_25.05.2024",
+			"TYPE": "SRR",
+			"EVENT": "7th_Salamanca_Masters"
+		},
+		{
+			"RDS": "6",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/casabchess24.pgn"
+			],
+			"DATES": "18.05.2024-_19.05.2024",
+			"TYPE": "DRR",
+			"EVENT": "Casablanca_Chess_2024"
+		},
+		{
+			"RDS": "9",
+			"RES": "https://chess-results.com/tnr902564.aspx",
+			"Results": [
+				[
+					"1",
+					"",
+					"GM",
+					"Erigaisi, Arjun",
+					"35009192",
+					"IND",
+					"2761"
+				],
+				[
+					"2",
+					"",
+					"GM",
+					"Maghsoodloo, Parham",
+					"12539929",
+					"IRI",
+					"2732"
+				],
+				[
+					"3",
+					"",
+					"GM",
+					"Yu, Yangyi",
+					"8603820",
+					"CHN",
+					"2728"
+				],
+				[
+					"4",
+					"",
+					"GM",
+					"Radjabov, Teimour",
+					"13400924",
+					"AZE",
+					"2723"
+				],
+				[
+					"5",
+					"",
+					"GM",
+					"Tabatabaei, M. Amin",
+					"12521213",
+					"IRI",
+					"2707"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/sharjmast24.pgn"
+			],
+			"DATES": "13.05.2024-_24.05.2024",
+			"TYPE": "Swiss",
+			"EVENT": "7th_Sharjah_Masters_2024"
+		},
+		{
+			"RDS": "9",
+			"RES": "https://chess-results.com/tnr902564.aspx",
+			"Results": [
+				[
+					"1",
+					"",
+					"GM",
+					"Erigaisi, Arjun",
+					"35009192",
+					"IND",
+					"2761"
+				],
+				[
+					"2",
+					"",
+					"GM",
+					"Maghsoodloo, Parham",
+					"12539929",
+					"IRI",
+					"2732"
+				],
+				[
+					"3",
+					"",
+					"GM",
+					"Yu, Yangyi",
+					"8603820",
+					"CHN",
+					"2728"
+				],
+				[
+					"4",
+					"",
+					"GM",
+					"Radjabov, Teimour",
+					"13400924",
+					"AZE",
+					"2723"
+				],
+				[
+					"5",
+					"",
+					"GM",
+					"Tabatabaei, M. Amin",
+					"12521213",
+					"IRI",
+					"2707"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/sharjchall24.pgn"
+			],
+			"DATES": "13.05.2024-_24.05.2024",
+			"TYPE": "Swiss",
+			"EVENT": "7th_Sharjah_Challengers"
+		},
+		{
+			"RDS": "5",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/chesscomcldiv1w24.pgn"
+			],
+			"DATES": "10.05.2024-_15.05.2024",
+			"TYPE": "DEKO",
+			"EVENT": "Chess.com_Classic_Div_1_W"
+		},
+		{
+			"RDS": "4",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/chesscomcldiv1l24.pgn"
+			],
+			"DATES": "10.05.2024-_15.05.2024",
+			"TYPE": "DEKO",
+			"EVENT": "Chess.com_Classic_Div_1_L"
+		},
+		{
+			"RDS": "6",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/chesscomcldiv2w24.pgn"
+			],
+			"DATES": "10.05.2024-_15.05.2024",
+			"TYPE": "DEKO",
+			"EVENT": "Chess.com_Classic_Div_2_W"
+		},
+		{
+			"RDS": "6",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/chesscomcldiv2l24.pgn"
+			],
+			"DATES": "10.05.2024-_15.05.2024",
+			"TYPE": "DEKO",
+			"EVENT": "Chess.com_Classic_Div_2_L"
+		},
+		{
+			"RDS": "7",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/chesscomcldiv3w24.pgn"
+			],
+			"DATES": "10.05.2024-_15.05.2024",
+			"TYPE": "DEKO",
+			"EVENT": "Chess.com_Classic_Div_3_W"
+		},
+		{
+			"RDS": "4",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/chesscomcldiv3l24.pgn"
+			],
+			"DATES": "10.05.2024-_15.05.2024",
+			"TYPE": "DEKO",
+			"EVENT": "Chess.com_Classic_Div_3_L"
+		},
+		{
+			"RDS": "9",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/warsawrap24.pgn"
+			],
+			"DATES": "06.05.2024-_13.05.2024",
+			"TYPE": "SRR",
+			"EVENT": "Superbet_POL_Rapid_2024"
+		},
+		{
+			"RDS": "18",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/warsawbli24.pgn"
+			],
+			"DATES": "06.05.2024-_13.05.2024",
+			"TYPE": "DRR",
+			"EVENT": "Superbet_POL_Blitz_2024"
+		},
+		{
+			"RDS": "10",
+			"RES": "https://chess-results.com/tnr926720.aspx",
+			"Results": [
+				[
+					"4",
+					"",
+					"GM",
+					"Ruslan, Ponomariov",
+					"14103320",
+					"UKR",
+					"2646"
+				],
+				[
+					"1",
+					"",
+					"GM",
+					"Chopra, Aryan",
+					"5084423",
+					"IND",
+					"2641"
+				],
+				[
+					"6",
+					"",
+					"GM",
+					"Carlos Daniel, Albornoz Cabrera",
+					"3518736",
+					"CUB",
+					"2612"
+				],
+				[
+					"2",
+					"",
+					"GM",
+					"Mads, Andersen",
+					"1413864",
+					"DEN",
+					"2598"
+				],
+				[
+					"3",
+					"",
+					"GM",
+					"Evgeny, Romanov",
+					"4148843",
+					"NOR",
+					"2585"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/capmemel24.pgn"
+			],
+			"DATES": "03.05.2024-_12.05.2024",
+			"TYPE": "DRR",
+			"EVENT": "57th_Capablanca_Mem_Elite"
+		},
+		{
+			"RDS": "7",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/sige24.pgn"
+			],
+			"DATES": "27.04.2024-_03.05.2024",
+			"TYPE": "SRR",
+			"EVENT": "28th_Sigeman_\u0026_Co_2024"
+		},
+		{
+			"RDS": "3",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/sigetb124.pgn"
+			],
+			"DATES": "27.04.2024-_03.05.2024",
+			"TYPE": "SRR",
+			"EVENT": "28th_Sigeman_\u0026_Co_TB1"
+		},
+		{
+			"RDS": "2",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/sigetb224.pgn"
+			],
+			"DATES": "27.04.2024-_03.05.2024",
+			"TYPE": "Match",
+			"EVENT": "28th_Sigeman_\u0026_Co_TB2"
+		},
+		{
+			"RDS": "9",
+			"RES": "https://chess-results.com/tnr889340.aspx",
+			"Results": [
+				[
+					"1",
+					"",
+					"GM",
+					"Petrosyan, Manuel",
+					"13300857",
+					"ARM",
+					"2616",
+					"",
+					""
+				],
+				[
+					"2",
+					"",
+					"GM",
+					"Andriasian, Zaven",
+					"13302000",
+					"ARM",
+					"2570",
+					"",
+					""
+				],
+				[
+					"3",
+					"",
+					"GM",
+					"Pranesh, M",
+					"35028600",
+					"IND",
+					"2538",
+					"",
+					"U18"
+				],
+				[
+					"4",
+					"",
+					"GM",
+					"Ohanyan, Emin",
+					"13312022",
+					"ARM",
+					"2488",
+					"",
+					"U18"
+				],
+				[
+					"5",
+					"",
+					"IM",
+					"Davtyan, Artur",
+					"13308327",
+					"ARM",
+					"2474",
+					"",
+					""
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/asrianmem24.pgn"
+			],
+			"DATES": "24.04.2024-_02.05.2024",
+			"TYPE": "Swiss",
+			"EVENT": "14th_Asrian_Memorial_2024"
+		},
+		{
+			"RDS": "10",
+			"RES": "https://chess-results.com/tnr897945.aspx",
+			"Results": [
+				[
+					"1",
+					"",
+					"IM",
+					"Osmak, Yuliia",
+					"14101602",
+					"UKR",
+					"2459",
+					""
+				],
+				[
+					"2",
+					"",
+					"IM",
+					"Efroimski, Marsel",
+					"2810964",
+					"ISR",
+					"2457",
+					""
+				],
+				[
+					"3",
+					"",
+					"GM",
+					"Khotenashvili, Bella",
+					"13602640",
+					"GEO",
+					"2454",
+					""
+				],
+				[
+					"4",
+					"",
+					"IM",
+					"Wagner, Dinara",
+					"24157570",
+					"GER",
+					"2453",
+					""
+				],
+				[
+					"5",
+					"",
+					"GM",
+					"Stefanova, Antoaneta",
+					"2902257",
+					"BUL",
+					"2447",
+					""
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/cheurw24.pgn"
+			],
+			"DATES": "18.04.2024-_30.04.2024",
+			"TYPE": "Swiss",
+			"EVENT": "24th_ch-EUR_Indiv_w_2024"
+		},
+		{
+			"RDS": "14",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/wchcand24.pgn"
+			],
+			"DATES": "03.04.2024-_21.04.2024",
+			"TYPE": "DRR",
+			"EVENT": "FIDE_Candidates_2024"
+		},
+		{
+			"RDS": "14",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/wchwcand24.pgn"
+			],
+			"DATES": "03.04.2024-_21.04.2024",
+			"TYPE": "DRR",
+			"EVENT": "FIDE_Women\u0027s_Candidates"
+		},
+		{
+			"RDS": "11",
+			"RES": "No Link",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/tchgbr2324.pgn"
+			],
+			"DATES": "11.11.2023-_04.05.2024",
+			"TYPE": "League",
+			"EVENT": "4NCL_2023-24"
+		},
+		{
+			"RDS": "15",
+			"RES": "https://ergebnisdienst.schachbund.de/bedt.php?liga\u003dbl",
+			"Results": [],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/bund2324.pgn"
+			],
+			"DATES": "21.10.2023-_28.04.2024",
+			"TYPE": "League",
+			"EVENT": "Bundesliga_2023-24"
+		},
+		{
+			"RDS": "9",
+			"RES": "https://chess-results.com/tnr819152.aspx",
+			"Results": [
+				[
+					"1",
+					"Kennemer Combinatie",
+					"*",
+					"5",
+					"6",
+					"6½",
+					"5½",
+					"5½",
+					"8",
+					"7½",
+					"8½",
+					"8",
+					"17",
+					"60,5"
+				],
+				[
+					"2",
+					"LSG IntelliMagic",
+					"5",
+					"*",
+					"5½",
+					"4",
+					"8½",
+					"6½",
+					"6",
+					"5",
+					"6½",
+					"6",
+					"14",
+					"53"
+				],
+				[
+					"3",
+					"AMEVO Apeldoorn",
+					"4",
+					"4½",
+					"*",
+					"5½",
+					"5½",
+					"6½",
+					"5½",
+					"7",
+					"6½",
+					"7½",
+					"14",
+					"52,5"
+				],
+				[
+					"4",
+					"Groninger Combinatie",
+					"3½",
+					"6",
+					"4½",
+					"*",
+					"5",
+					"5",
+					"6",
+					"6",
+					"5½",
+					"8½",
+					"12",
+					"50"
+				],
+				[
+					"5",
+					"Paul Keres",
+					"4½",
+					"1½",
+					"4½",
+					"5",
+					"*",
+					"5",
+					"6½",
+					"5",
+					"5½",
+					"7",
+					"9",
+					"44,5"
+				]
+			],
+			"PGN": [
+				"https://theweekinchess.com/assets/files/pgn/tchned2324.pgn"
+			],
+			"DATES": "16.09.2023-_20.04.2024",
+			"TYPE": "League",
+			"EVENT": "Dutch_League_2023-24"
+		}
+	]
+}
