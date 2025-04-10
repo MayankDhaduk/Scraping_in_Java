@@ -1,0 +1,146 @@
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.itextpdf.kernel.pdf.PdfDocument;
+import com.itextpdf.kernel.pdf.PdfWriter;
+import com.itextpdf.layout.Document;
+import com.itextpdf.layout.element.Cell;
+import com.itextpdf.layout.element.Paragraph;
+import com.itextpdf.layout.element.Table;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+import java.io.File;
+import java.io.IOException;
+import java.time.Duration;
+import java.util.ArrayList;
+import java.util.List;
+
+public class ResultPlayerScrap {
+
+	public static class CellData {
+		public String text;
+		public String link;
+
+		public CellData(String text, String link) {
+			this.text = text;
+			this.link = link;
+		}
+	}
+
+	public static void main(String[] args) {
+		WebDriverManager.chromedriver().setup();
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--headless");
+		WebDriver driver = new ChromeDriver(options);
+
+		String url = "https://chess-results.com/tnr1127210.aspx";
+		driver.get(url);
+
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		wait.until(ExpectedConditions.presenceOfElementLocated(By.className("CRs1")));
+
+		org.jsoup.nodes.Document doc = Jsoup.parse(driver.getPageSource());
+		Element table = doc.selectFirst("table.CRs1");
+		List<List<Object>> data = new ArrayList<>();
+
+		if (table != null) {
+			Elements rows = table.select("tr");
+
+			for (int i = 0; i < Math.min(6, rows.size()); i++) {
+				Element row = rows.get(i);
+				Elements cells = row.select("td, th");
+				List<Object> rowData = new ArrayList<>();
+
+				for (Element cell : cells) {
+					String cellText = cell.text().trim();
+					Element link = cell.selectFirst("a[href]");
+
+					if (link != null) {
+						String href = link.absUrl("href").replace("http://", "https://").replaceAll("[\"')>,]", "") // Clean
+																													// unwanted
+																													// chars
+								.trim();
+
+						rowData.add(new CellData(cellText, href));
+					} else {
+						rowData.add(cellText);
+					}
+				}
+
+				if (!rowData.isEmpty()) {
+					data.add(rowData);
+				}
+			}
+		}
+
+		driver.quit();
+		saveToJson(data);
+		createFormattedPDF(data);
+	}
+
+	public static void saveToJson(List<List<Object>> data) {
+		String jsonFilename = "chess_results.json";
+		ObjectMapper objectMapper = new ObjectMapper();
+		try {
+			objectMapper.writerWithDefaultPrettyPrinter().writeValue(new File(jsonFilename), data);
+			System.out.println("Data successfully saved to " + jsonFilename);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public static void createFormattedPDF(List<List<Object>> data) {
+		String pdfFilename = "chess_results.pdf";
+		try {
+			PdfDocument pdfDoc = new PdfDocument(new PdfWriter(pdfFilename));
+			Document document = new Document(pdfDoc);
+
+			document.add(new Paragraph("Chess Results").setFontSize(18).setBold());
+
+			if (!data.isEmpty()) {
+				float[] columnWidths = new float[data.get(0).size()];
+				for (int i = 0; i < columnWidths.length; i++) {
+					columnWidths[i] = 100;
+				}
+				Table table = new Table(columnWidths);
+
+				// Add table headers
+				List<Object> headers = data.get(0);
+				for (Object header : headers) {
+					String headerText = extractDisplayText(header);
+					table.addHeaderCell(new Cell().add(new Paragraph(headerText).setBold()));
+				}
+
+				// Add table data
+				for (int i = 1; i < data.size(); i++) {
+					for (Object cell : data.get(i)) {
+						String display = extractDisplayText(cell);
+						table.addCell(new Cell().add(new Paragraph(display)));
+					}
+				}
+
+				document.add(table);
+			}
+
+			document.close();
+			System.out.println("PDF created successfully: " + pdfFilename);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	private static String extractDisplayText(Object cell) {
+		if (cell instanceof CellData) {
+			CellData c = (CellData) cell;
+			return c.text + " - " + c.link;
+		}
+		return cell.toString();
+	}
+}
