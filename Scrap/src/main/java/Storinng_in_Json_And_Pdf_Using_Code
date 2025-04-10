@@ -1,0 +1,241 @@
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.*;
+import org.openqa.selenium.support.ui.*;
+import com.google.gson.Gson;
+import io.github.bonigarcia.wdm.WebDriverManager;
+import org.jsoup.*;
+import org.jsoup.nodes.*;
+import org.jsoup.select.*;
+import java.io.*;
+import java.net.*;
+import java.nio.file.*;
+import java.time.Duration;
+import java.util.*;
+import java.util.concurrent.*;
+import com.google.gson.reflect.TypeToken;
+import com.itextpdf.text.DocumentException;
+import com.itextpdf.text.Font;
+import com.itextpdf.text.Paragraph;
+import com.itextpdf.text.Phrase;
+import com.itextpdf.text.pdf.PdfPCell;
+import com.itextpdf.text.pdf.PdfPTable;
+import com.itextpdf.text.pdf.PdfWriter;
+import java.lang.reflect.Type;
+
+import com.itextpdf.text.BaseColor;
+import com.itextpdf.text.Document;
+import com.itextpdf.text.PageSize;
+
+public class Test {
+
+	@SuppressWarnings("unchecked")
+	public static void main(String[] args) {
+		WebDriverManager.chromedriver().setup();
+
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--disable-gpu", "--no-sandbox", "--disable-dev-shm-usage");
+		options.addArguments("--disable-blink-features=AutomationControlled");
+		options.setPageLoadStrategy(PageLoadStrategy.EAGER);
+		options.addArguments(
+				"user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36");
+
+		WebDriver driver = new ChromeDriver(options);
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+
+		// Step 1: Open main page
+		driver.get("https://theweekinchess.com");
+		wait.until(ExpectedConditions.presenceOfElementLocated(By.className("navigation1")));
+
+		// Step 2: Extract the correct link
+		WebElement navMenu = driver.findElement(By.className("navigation1"));
+		WebElement targetLink = navMenu.findElement(By.xpath(".//a[contains(@href, 'a-year-of-pgn-game-files')]"));
+		String twicUrl = targetLink.getAttribute("href");
+
+		// Step 3: Navigate to the extracted link
+		driver.get(twicUrl);
+		wait.until(ExpectedConditions.presenceOfElementLocated(By.tagName("table")));
+
+		String saveDirectory = "C:/Users/ADMIN/Downloads/Scrape-store-java";
+		new File(saveDirectory).mkdirs();
+
+		List<Map<String, Object>> extractedData = Collections.synchronizedList(new ArrayList<>());
+		List<WebElement> tables = driver.findElements(By.tagName("table"));
+		List<String> resLinks = Collections.synchronizedList(new ArrayList<>());
+		ExecutorService executor = Executors.newFixedThreadPool(10);
+
+		// Extract data from tables and start PGN downloads in parallel
+		for (WebElement table : tables) {
+			for (WebElement row : table.findElements(By.tagName("tr"))) {
+				List<WebElement> cols = row.findElements(By.tagName("td"));
+				if (cols.size() >= 10) {
+					String event = cols.get(0).getText().trim().replace(" ", "_");
+					String date = cols.get(3).getText().trim().replace(" ", "_");
+					String res = cols.get(5).findElements(By.tagName("a")).isEmpty() ? "No Link"
+							: cols.get(5).findElement(By.tagName("a")).getAttribute("href");
+					String live = cols.get(6).findElements(By.tagName("a")).isEmpty() ? "No Link"
+							: cols.get(6).findElement(By.tagName("a")).getAttribute("href");
+					String rds = cols.get(7).getText().trim();
+					String typeField = cols.get(8).getText().trim();
+					WebElement pgnColumn = cols.get(9);
+
+					Map<String, Object> rowData = new ConcurrentHashMap<>();
+					rowData.put("EVENT", event);
+					rowData.put("DATES", date);
+					rowData.put("RES", res);
+					rowData.put("LIVE", live);
+					rowData.put("RDS", rds);
+					rowData.put("TYPE", typeField);
+					rowData.put("PGN", Collections.synchronizedList(new ArrayList<String>()));
+					rowData.put("Results", Collections.synchronizedList(new ArrayList<>()));
+
+					if (res.startsWith("http"))
+						resLinks.add(res);
+
+					for (WebElement pgnLink : pgnColumn.findElements(By.tagName("a"))) {
+						String pgnUrl = pgnLink.getAttribute("href");
+						if (pgnUrl != null && pgnUrl.startsWith("http")) {
+							((List<String>) rowData.get("PGN")).add(pgnUrl);
+							executor.submit(() -> {
+								try (InputStream in = new URL(pgnUrl).openStream()) {
+									Path filePath = Paths.get(saveDirectory, event + "_" + date + ".pgn");
+									Files.copy(in, filePath, StandardCopyOption.REPLACE_EXISTING);
+									System.out.println("Downloaded: " + filePath.getFileName());
+								} catch (IOException e) {
+									System.out.println("Failed to download PGN: " + pgnUrl);
+								}
+							});
+						}
+					}
+					extractedData.add(rowData);
+				}
+			}
+		}
+
+		// Fetch results from result links in parallel
+		Map<String, List<List<String>>> resultsMapping = new ConcurrentHashMap<>();
+		List<Future<?>> futures = new ArrayList<>();
+
+		for (String resUrl : resLinks) {
+			futures.add(executor.submit(() -> {
+				try {
+					org.jsoup.nodes.Document doc = Jsoup.connect(resUrl).userAgent("Mozilla/5.0").timeout(60000).get();
+					Element targetTable = doc.selectFirst("table.CRs1");
+					if (targetTable != null) {
+						List<List<String>> results = new ArrayList<>();
+						Elements rows = targetTable.select("tr");
+						for (int i = 1; i < Math.min(6, rows.size()); i++) {
+							Elements cells = rows.get(i).select("td");
+							List<String> cellData = new ArrayList<>();
+							for (Element cell : cells)
+								cellData.add(cell.text());
+							results.add(cellData);
+						}
+						resultsMapping.put(resUrl, results);
+					}
+				} catch (IOException e) {
+					System.out.println("Failed to fetch results from: " + resUrl);
+				}
+			}));
+		}
+
+		for (Future<?> future : futures) {
+			try {
+				future.get();
+			} catch (InterruptedException | ExecutionException e) {
+				e.printStackTrace();
+			}
+		}
+
+		// Map results into extractedData
+		for (Map<String, Object> entry : extractedData) {
+			String resUrl = (String) entry.get("RES");
+			if (resultsMapping.containsKey(resUrl)) {
+				entry.put("Results", resultsMapping.get(resUrl));
+			}
+		}
+
+		// Save the data to a JSON file
+		try (BufferedWriter writer = new BufferedWriter(new FileWriter("combined_chess_data.json"))) {
+			writer.write(new Gson().toJson(Collections.singletonMap("TWIC_Data", extractedData)));
+			System.out.println("Data saved to combined_chess_data.json");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+		try {
+			FileReader reader = new FileReader("combined_chess_data.json");
+			Type type = new TypeToken<Map<String, List<Map<String, Object>>>>() {
+			}.getType();
+			Map<String, List<Map<String, Object>>> data = new Gson().fromJson(reader, type);
+
+			Document document = new Document(PageSize.A4);
+			PdfWriter.getInstance(document, new FileOutputStream("chess_data.pdf"));
+			document.open();
+
+			List<Map<String, Object>> chessData = data.get("TWIC_Data");
+			for (Map<String, Object> entry : chessData) {
+				document.add(new Paragraph("Event: " + entry.get("EVENT")));
+				document.add(new Paragraph("Date: " + entry.get("DATES")));
+				document.add(new Paragraph("Result Link: " + entry.get("RES")));
+				document.add(new Paragraph("Live Link: " + entry.get("LIVE")));
+				document.add(new Paragraph("Rounds: " + entry.get("RDS")));
+				document.add(new Paragraph("Type: " + entry.get("TYPE")));
+
+				// PGN Data
+				List<String> pgnList = (List<String>) entry.get("PGN");
+				document.add(
+						new Paragraph("PGN: " + (pgnList.isEmpty() ? "No PGN Available" : String.join(", ", pgnList))));
+
+				Font headerFont = new Font(Font.FontFamily.HELVETICA, 12, Font.BOLD, BaseColor.WHITE);
+				Font cellFont = new Font(Font.FontFamily.HELVETICA, 10, Font.NORMAL, BaseColor.BLACK);
+
+				// Results Data
+				List<List<String>> results = (List<List<String>>) entry.get("Results");
+				if (results != null && !results.isEmpty()) {
+					PdfPTable table = new PdfPTable(results.get(0).size());
+					table.setWidthPercentage(100);
+					table.setSpacingBefore(10f);
+					table.setSpacingAfter(10f);
+
+					// Add headers dynamically with styling
+					for (int i = 0; i < results.get(0).size(); i++) {
+						PdfPCell headerCell = new PdfPCell(new Phrase("", headerFont));
+						headerCell.setBackgroundColor(BaseColor.DARK_GRAY);
+						table.addCell(headerCell);
+					}
+
+					// Add rows with alternating colors for better readability
+					boolean alternate = false;
+					for (List<String> player : results) {
+						BaseColor rowColor = alternate ? new BaseColor(230, 230, 250) : BaseColor.WHITE;
+						for (String field : player) {
+							PdfPCell cell = new PdfPCell(new Phrase(field, cellFont));
+							cell.setBackgroundColor(rowColor);
+							cell.setPadding(5);
+							table.addCell(cell);
+						}
+						alternate = !alternate;
+					}
+
+					document.add(table);
+				} else {
+					document.add(new Paragraph("No Results Available",
+							new Font(Font.FontFamily.HELVETICA, 12, Font.BOLD, BaseColor.RED)));
+				}
+
+				document.add(new Paragraph("\n")); // Add space between entries
+			}
+
+			document.close();
+			System.out.println("PDF generated: chess_data.pdf");
+
+		} catch (IOException | DocumentException e) {
+			e.printStackTrace();
+		}
+
+		// Shutdown executor and close browser
+		executor.shutdown();
+		driver.quit();
+		System.out.println("All data has been successfully scraped, saved in JSON, and converted to PDF.");
+	}
+}
