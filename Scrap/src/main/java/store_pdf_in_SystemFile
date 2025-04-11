@@ -1,0 +1,77 @@
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import io.github.bonigarcia.wdm.WebDriverManager;
+import java.io.File;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.HashMap;
+import java.util.Map;
+
+public class ResultPlayerScrap {
+	public static void main(String[] args) {
+		WebDriverManager.chromedriver().setup();
+
+		// Define the download directory and PDF file path
+		String downloadPath = "C:\\Users\\ADMIN\\Downloads\\Store_Pdf_Java_Image";
+		String pdfFilePath = downloadPath + "\\Saved_Webpage.pdf";
+
+		// Ensure the directory exists before launching Chrome
+		File dir = new File(downloadPath);
+		if (!dir.exists()) {
+			dir.mkdirs();
+		}
+
+		// Chrome Preferences for Silent PDF Printing
+		Map<String, Object> prefs = new HashMap<>();
+		prefs.put("savefile.default_directory", downloadPath); // Set default download folder
+		prefs.put("download.default_directory", downloadPath);
+		prefs.put("download.prompt_for_download", false); // Disable Save As dialog
+		prefs.put("printing.print_preview_sticky_settings.appState",
+				"{\"recentDestinations\":[{\"id\":\"Save as PDF\",\"origin\":\"local\",\"account\":\"\"}],"
+						+ "\"selectedDestinationId\":\"Save as PDF\"," + "\"version\":2," + "\"marginsType\":2," // No
+																													// margins
+						+ "\"scalingType\":3," // Fit to page
+						+ "\"scaling\":100," + "\"isHeaderFooterEnabled\":false," // Disable headers/footers
+						+ "\"isBackgroundGraphicsEnabled\":true}" // Enable Background Graphics
+		);
+
+		ChromeOptions options = new ChromeOptions();
+		options.setExperimentalOption("prefs", prefs);
+		options.addArguments("--kiosk-printing"); // Silent printing
+		options.addArguments("--disable-popup-blocking"); // Prevents pop-ups
+		options.addArguments("--start-maximized"); // Full-screen mode
+
+		WebDriver driver = new ChromeDriver(options);
+
+		try {
+			driver.get("https://theweekinchess.com/john-watson-reviews");
+
+			// Wait for JavaScript-rendered content to load
+			Thread.sleep(7000);
+
+			// Scroll to bottom to ensure lazy-loaded elements are rendered
+			JavascriptExecutor js = (JavascriptExecutor) driver;
+			js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
+			Thread.sleep(3000);
+
+			// Trigger print action
+			js.executeScript("window.print();");
+
+			// Wait for PDF generation and saving
+			Thread.sleep(5000);
+
+			// Check if PDF file was created
+			if (!Files.exists(Paths.get(pdfFilePath))) {
+				System.out.println("PDF successfully saved at: " + pdfFilePath);
+			} else {
+				System.out.println("PDF generation failed. Please check Chrome settings.");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			driver.quit();
+		}
+	}
+}
