@@ -6,15 +6,15 @@ import java.io.File;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class ResultPlayerScrap {
 	public static void main(String[] args) {
 		WebDriverManager.chromedriver().setup();
 
-		// Define the download directory and PDF file path
+		// Define the download directory
 		String downloadPath = "C:\\Users\\ADMIN\\Downloads\\Store_Pdf_Java_Image";
-		String pdfFilePath = downloadPath + "\\Saved_Webpage.pdf";
 
 		// Ensure the directory exists before launching Chrome
 		File dir = new File(downloadPath);
@@ -24,54 +24,111 @@ public class ResultPlayerScrap {
 
 		// Chrome Preferences for Silent PDF Printing
 		Map<String, Object> prefs = new HashMap<>();
-		prefs.put("savefile.default_directory", downloadPath); // Set default download folder
+		prefs.put("savefile.default_directory", downloadPath);
 		prefs.put("download.default_directory", downloadPath);
-		prefs.put("download.prompt_for_download", false); // Disable Save As dialog
+		prefs.put("download.prompt_for_download", false);
 		prefs.put("printing.print_preview_sticky_settings.appState",
 				"{\"recentDestinations\":[{\"id\":\"Save as PDF\",\"origin\":\"local\",\"account\":\"\"}],"
-						+ "\"selectedDestinationId\":\"Save as PDF\"," + "\"version\":2," + "\"marginsType\":2," // No
-																													// margins
-						+ "\"scalingType\":3," // Fit to page
-						+ "\"scaling\":100," + "\"isHeaderFooterEnabled\":false," // Disable headers/footers
-						+ "\"isBackgroundGraphicsEnabled\":true}" // Enable Background Graphics
-		);
+						+ "\"selectedDestinationId\":\"Save as PDF\"," + "\"version\":2," + "\"marginsType\":2,"
+						+ "\"scalingType\":3," + "\"scaling\":100," + "\"isHeaderFooterEnabled\":false,"
+						+ "\"isBackgroundGraphicsEnabled\":true}");
 
 		ChromeOptions options = new ChromeOptions();
 		options.setExperimentalOption("prefs", prefs);
-		options.addArguments("--kiosk-printing"); // Silent printing
-		options.addArguments("--disable-popup-blocking"); // Prevents pop-ups
-		options.addArguments("--start-maximized"); // Full-screen mode
+		options.addArguments("--kiosk-printing");
+		options.addArguments("--disable-popup-blocking");
+		options.addArguments("--start-maximized");
 
 		WebDriver driver = new ChromeDriver(options);
-
 		try {
-			driver.get("https://theweekinchess.com/john-watson-reviews");
+			// Step 1: Open the main website and save it as a PDF
+			savePageAsPDF(driver, "https://theweekinchess.com", downloadPath + "\\HomePage.pdf");
 
-			// Wait for JavaScript-rendered content to load
-			Thread.sleep(7000);
+			// Step 2: Locate "secondNav" and find the "a-year-of-pgn-game-files" link
+			WebElement secondNav = driver.findElement(By.id("secondNav"));
+			WebElement navigationList = secondNav.findElement(By.className("navigation1"));
+			WebElement targetLink = navigationList
+					.findElement(By.xpath(".//a[contains(@href, 'a-year-of-pgn-game-files')]"));
 
-			// Scroll to bottom to ensure lazy-loaded elements are rendered
-			JavascriptExecutor js = (JavascriptExecutor) driver;
-			js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
-			Thread.sleep(3000);
+			String yearOfPgnUrl = targetLink.getAttribute("href");
+			System.out.println("Navigating to: " + yearOfPgnUrl);
 
-			// Trigger print action
-			js.executeScript("window.print();");
+			// Step 3: Navigate to "a-year-of-pgn-game-files" and save it as a PDF
+			savePageAsPDF(driver, yearOfPgnUrl, downloadPath + "\\YearOfPGN.pdf");
 
-			// Wait for PDF generation and saving
-			Thread.sleep(5000);
+			// Step 4: Locate "calendar-table" and find "RES" column links
+			List<String> resLinks = getResLinks(driver);
 
-			// Check if PDF file was created
-			if (!Files.exists(Paths.get(pdfFilePath))) {
-				System.out.println("PDF successfully saved at: " + pdfFilePath);
-			} else {
-				System.out.println("PDF generation failed. Please check Chrome settings.");
+			for (int i = 0; i < resLinks.size(); i++) {
+				String matchUrl = resLinks.get(i);
+				System.out.println("Opening match link: " + matchUrl);
+
+				boolean success = savePageAsPDF(driver, matchUrl, downloadPath + "\\Match_" + (i + 1) + ".pdf");
+				if (!success) {
+					System.out.println("Failed to save PDF for: " + matchUrl);
+					System.out.println("Returning to 'a-year-of-pgn-game-files' to continue...");
+					driver.get(yearOfPgnUrl);
+					Thread.sleep(5000); // Allow time for reloading
+					resLinks = getResLinks(driver); // Refresh the list of RES links
+				}
 			}
+
+			System.out.println("All PDFs have been saved successfully!");
 
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
 			driver.quit();
 		}
+	}
+
+	// Utility function to save a webpage as a PDF
+	private static boolean savePageAsPDF(WebDriver driver, String url, String filePath) {
+		try {
+			driver.get(url);
+			Thread.sleep(7000);
+
+			// Scroll to bottom for lazy-loaded elements
+			JavascriptExecutor js = (JavascriptExecutor) driver;
+			js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
+			Thread.sleep(3000);
+
+			// Trigger print action
+			js.executeScript("window.print();");
+			Thread.sleep(5000);
+
+			if (Files.exists(Paths.get(filePath))) {
+				System.out.println("PDF saved: " + filePath);
+				return true;
+			} else {
+				System.out.println("PDF generation failed for: " + url);
+				return false;
+			}
+		} catch (Exception e) {
+			System.out.println("Error generating PDF for: " + url);
+			return false;
+		}
+	}
+
+	// Utility function to retrieve all "RES" column links from the calendar table
+	private static List<String> getResLinks(WebDriver driver) throws InterruptedException {
+		WebElement calendarTable = driver.findElement(By.className("calendar-table"));
+		List<WebElement> tableHeaders = calendarTable.findElements(By.xpath(".//tr[@class='tabhead']/th"));
+
+		int resColumnIndex = -1;
+		for (int i = 0; i < tableHeaders.size(); i++) {
+			if (tableHeaders.get(i).getText().trim().equalsIgnoreCase("RES")) {
+				resColumnIndex = i + 1; // XPath indexing starts from 1
+				break;
+			}
+		}
+
+		if (resColumnIndex == -1) {
+			System.out.println("Column 'RES' not found!");
+			return List.of();
+		}
+
+		List<WebElement> resLinks = calendarTable.findElements(By.xpath(".//tr/td[" + resColumnIndex + "]/a"));
+		return resLinks.stream().map(link -> link.getAttribute("href")).toList();
 	}
 }
